@@ -6,7 +6,7 @@ function FAQ() {
   return (
     <div >
     <Card><div className="faqImg"> 
-    <Card.Img  src={process.env.PUBLIC_URL + "/image/DailyTrivia1.png"} 
+    <Card.Img  src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"} 
 variant="top" height="500px"   className="d-block w-100" />
     </div>
 
