@@ -26,6 +26,8 @@ const HomeContent = () => {
 <FetchComment />
   
   <Comment />
+
+
    </Card>
 
     </div>

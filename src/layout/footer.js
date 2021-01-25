@@ -11,9 +11,9 @@ import {
 function Footer() {
   return (
     <div>
-  
+
    <footer className="bg-dark text-white text-center text-lg-start">
-  
+   <br></br>
   <div className="container p-4">
     <div className="row">
 
@@ -80,7 +80,7 @@ function Footer() {
             <a href="/termsAndCondition" >Terms&condition</a>
           </li><br></br>
           <li>
-            <a href="/complaint" >Complaint</a>
+            <a href="/" >Complaint</a>
           </li><br></br>
         </ul>
       </div>

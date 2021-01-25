@@ -85,9 +85,10 @@ render() {
    <Button variant="primary" type="submit"  >
      Post  
     </Button>
+    <br></br>
           </Form>
           </Row></Container>
-          <br></br>
+        
       </div>
     )
   }

@@ -1,7 +1,7 @@
 import React ,{useEffect, useState,useRef} from 'react';
 import Mountain from '../images/mountain.jpg';
 import me from '../images/img_bg.jpg';
-import typical from 'react-typical' 
+import Typical from 'react-typical' 
 import { Carousel,Card,Container,Row,Col, InputGroup, FormControl, Form,Button } from 'react-bootstrap';
  import './about.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -28,8 +28,8 @@ src={Mountain} />
       
     <b> <div> Welcome To</div></b>
     <b> <b></b> <h5 >  <b>
-      <div style={{textShadow:"1px 1px black" }}><a href="https://WebServ4u.com">   <typical
-        steps={['Hi! ', 2000, 'WebServ4u.com', 2600,]}
+      <div style={{textShadow:"1px 1px black" }}><a href="https://WebServ4u.com">  <Typical
+        steps={['', 1500, 'WebServ4u.com', 2600,]}
         loop={Infinity}
         wrapper="p"
         
@@ -87,7 +87,7 @@ experiences, and real-life stories . <b>Laughter</b> is always <b>Welcome</b>".<
 </Col>
 <Col md="6" lg="6" xl="6">
 
-<div className="container"> <br></br> <br></br> <Card  style={{ width: '18rem' }}>
+<div className="container"> <Card  style={{ width: '18rem' }}>
   <Card.Img
    height="230px"
   variant="top" src="https://trustyathartha.in/static/media/r.acd6f040.jpg" />
