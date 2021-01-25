@@ -7,7 +7,7 @@ const HeaderNavbar = (props) => {
   return (
       
     <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
-    <Navbar.Brand  href="/"><h5 style={{color:"blue"}}>WebServ4u</h5></Navbar.Brand>
+    <Navbar.Brand  href="/"><h5 >WebServ4u</h5></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mr-auto">
