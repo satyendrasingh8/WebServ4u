@@ -1,0 +1,43 @@
+
+
+ body{
+    font-family: 'Nunito', sans-serif;
+    padding: 0px;
+    
+   
+  }
+  .Acard{
+      border-radius: 4px;
+      background: #fff;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      box-shadow: 0 6px 10px rgba(68, 54, 54, 0.08), 0 0 6px rgba(241, 194, 194, 0.05);
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 36px 18px 36px;
+    cursor: pointer;
+  }
+  
+
+ 
+  @media(max-width: 990px){
+    .Acard{
+      margin: -10px;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+  } 
+
+
+.outer-card {
+  padding: 50px;
+  text-align: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s 
+}
