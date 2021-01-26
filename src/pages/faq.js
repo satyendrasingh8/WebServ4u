@@ -1,10 +1,13 @@
 import React from "react";
 import { Card } from "react-bootstrap";
- import './faq.css';
+import './faq.css';
+import MetaDecorator from '../utils/metaDecorator'
+const content = require('../dummyData/pages.json')
 
 function FAQ() {
   return (
     <div >
+      <MetaDecorator title={content.faqTitle} description={content.faqDesc} />
     <Card><div className="faqImg"> 
     <Card.Img  src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"} 
 variant="top" height="500px"   className="d-block w-100" />

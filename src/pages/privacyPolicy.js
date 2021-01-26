@@ -1,8 +1,13 @@
 import React from "react";
 import {Card} from 'react-bootstrap'
+import MetaDecorator from '../utils/metaDecorator'
+const content = require('../dummyData/pages.json')
+
 function PrivacyPolicy() {
   return (
-    <div><Card>      <h1>Privacy Policy for webserv4u</h1>
+    <div>
+       <MetaDecorator title={content.privacyTitle} description={content.privacyDesc} />
+       <Card>      <h1>Privacy Policy for webserv4u</h1>
 
 <p>At WebServ4u.com , accessible from  https://WebServ4u.com    one of our main priorities is the privacy of our 
   visitors. This Privacy Policy document contains types of information that is collected and recorded by WebServ4u.com

@@ -1,9 +1,11 @@
 import React from "react";
+import MetaDecorator from '../utils/metaDecorator'
+const content = require('../dummyData/pages.json')
 
 function Disclaimer() {
   return (
     <div>
-   
+   <MetaDecorator title={content.disclaimerTitle} description={content.disclimerDesc} />
   
                 
 <h1 class="text-center">Disclaimer</h1>

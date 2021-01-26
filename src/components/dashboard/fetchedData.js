@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import FetchedDataSummary from './fetchedDataSummary';
 import db from '../../config/firebase'
 import QuizPagination from '../pagination/quizPagination';
+import MetaDecorator from "../../utils/metaDecorator"
+const content = require('../../dummyData/home.json')
 
 class FetchedQuiz extends Component {
  
@@ -50,10 +52,12 @@ class FetchedQuiz extends Component {
 
     return(
  <div>
+   <MetaDecorator title="flipkart daily trivia Quiz" description="get daily quiz answers" />
   {currentPosts && Array.from(currentPosts).map((data)=> {
    return (
        <div> 
         <FetchedDataSummary data={data} />
+        
            </div>
    )
   }) }

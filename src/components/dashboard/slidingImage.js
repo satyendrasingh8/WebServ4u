@@ -1,5 +1,7 @@
 import React,{useState} from "react";
 import {Carousel} from 'react-bootstrap'
+import MetaDecorator from "../../utils/metaDecorator"
+const content = require('../../dummyData/home.json')
 
 const SlidingImage = () => {
    
@@ -12,6 +14,7 @@ const SlidingImage = () => {
 
   return (
     <div className="text-black">
+      <MetaDecorator title={content.slidingImageTitle} description={content.slidingImageDescription} />
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item interval={2000}>
         <img

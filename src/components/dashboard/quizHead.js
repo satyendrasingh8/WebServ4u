@@ -8,11 +8,15 @@ import {
   faGithub
 
 } from "@fortawesome/free-brands-svg-icons";
+import MetaDecorator from '../../utils/metaDecorator'
+const header=require('../../dummyData/home.json')
+
 const QuizHead = () => {
 
 
     return(
   <div>
+    <MetaDecorator title={header.headerTitle} description={header.headerDescription} />
       <Card.Header as="h3"> Get Daily Flipkart Quiz answers
     <span style={{color:"red"}}> {moment(new Date()).format('Do MMM YYYY')}</span>.Answers these Quiz Answers to get Coupon Discount,
     amazing Gifts and earn Flipkart super coins.

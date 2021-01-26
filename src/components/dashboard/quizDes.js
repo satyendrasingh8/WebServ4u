@@ -1,9 +1,12 @@
 import React from 'react';
 import { Card, Image } from 'react-bootstrap';
+import MetaDecorator from "../../utils/metaDecorator"
+const content = require('../../dummyData/home.json')
 
 const QuizDescription = () =>{
     return (
         <div>
+            <MetaDecorator title={content.quizDescriptionTitle} description={content.quizDescriptionDescription} />
 <Card.Text><br></br>
       Here you have to get quick live updates for each Trivia Quiz Question everyday at 11:50pm.
       By answering these Quiz Questions you can win many gift vouchers,coupons,gifts,super coins etc.

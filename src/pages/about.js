@@ -11,12 +11,14 @@ import {
   faGithub
 
 } from "@fortawesome/free-brands-svg-icons";
-
+import MetaDecorator from '../utils/metaDecorator'
+const content = require('../dummyData/pages.json')
 
 function About() {
 
 
   return (<div>
+    <MetaDecorator title={content.aboutTitle} description={content.aboutDescription} />
   <Carousel >
 
   <Carousel.Item  >

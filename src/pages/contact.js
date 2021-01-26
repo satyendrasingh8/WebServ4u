@@ -1,6 +1,9 @@
 import React from "react";
 import emailjs from 'emailjs-com';
 import { Button,Card, Form } from 'reactstrap'
+import MetaDecorator from '../utils/metaDecorator'
+const content = require('../dummyData/pages.json')
+
 
 function Contact() {
   function sendEmail(e){
@@ -16,6 +19,7 @@ function Contact() {
    }
   return (
     <div>
+      <MetaDecorator title={content.contactTitle} description={content.contactDesc} />
    <h1>Contact us </h1>
    <Card>
         <section className="colorlib-about" data-section="contact">

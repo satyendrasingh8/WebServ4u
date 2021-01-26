@@ -1,9 +1,12 @@
 import React from "react";
 import {Card} from 'react-bootstrap'
+import MetaDecorator from '../utils/metaDecorator'
+const content = require('../dummyData/pages.json')
 
 function TermsAndCondition() {
   return (
     <div >
+        <MetaDecorator title={content.termsTitle} description={content.termsDesc}  />
    <Card>
    <h2><strong>Terms and Conditions</strong></h2>
 

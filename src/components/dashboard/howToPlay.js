@@ -1,11 +1,13 @@
 import React from "react";
 import { Card, Container } from "react-bootstrap";
+import MetaDecorator from "../../utils/metaDecorator"
+const content = require('../../dummyData/home.json')
 
 const HowToPlay = () => {
   return (
     <div >
     <Container fluid>
-  
+   <MetaDecorator title={content.howToPlayTitle} description={content.howToPlayDescription} />
     <Card.Title as="h3">How to play  Flipkart Daily  Quiz ? </Card.Title>
 <Card.Body>
 
