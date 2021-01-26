@@ -1,6 +1,5 @@
-
-import React from 'react';
-import { Card,Button } from 'react-bootstrap';
+import React from 'react'
+import { Button, Card } from 'react-bootstrap';
 import moment from "moment"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -8,16 +7,13 @@ import {
   faGithub
 
 } from "@fortawesome/free-brands-svg-icons";
-import MetaDecorator from '../../utils/metaDecorator'
-const header=require('../../dummyData/home.json')
 
-const QuizHead = () => {
+const DashBoardHeader = () => {
 
-
-    return(
-  <div>
-    <MetaDecorator title={header.headerTitle} description={header.headerDescription} />
-      <Card.Header as="h3"> Get Daily Flipkart Trivia Quiz answers
+    return (
+        <div>
+      <Card> 
+      <Card.Header as="h3"> Get Daily Flipkart  Quiz answers updated at <i> 12:00am.</i>
     <span style={{color:"red"}}> {moment(new Date()).format('Do MMM YYYY')}</span>.Answers these Quiz Answers to get Coupon Discount,
     amazing Gifts and earn Flipkart super coins.
        </Card.Header><br></br>
@@ -34,9 +30,10 @@ const QuizHead = () => {
  </Card.Subtitle>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
  <Card.Link href="/"><b><i>WebServ4u.com</i> </b></Card.Link>
-     
-  </div>
-    );
+ <br></br>
+      </Card>
+        </div>
+    )
 }
 
-export default QuizHead;
+export default DashBoardHeader;

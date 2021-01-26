@@ -5,11 +5,10 @@ import QuizDescription from './quizDes';
 import QuizHead from './quizHead';
 import SlidingImage from './slidingImage';
 import FetchedQuiz from './fetchedData';
-import FetchComment from '../comment/fetchComment';
-import Comment from '../comment/comment';
+import FetchComment from '../comment/fetchComment'
+import Comment from '../comment/comment'
 
-
-const HomeContent = () => {
+const TriviaQuiz = () => {
 
 
  
@@ -22,11 +21,8 @@ const HomeContent = () => {
  <HowToPlay />
 
  <FetchedQuiz />
-
-<FetchComment />
-  
-  <Comment />
-
+ <FetchComment /> 
+          <Comment />
 
    </Card>
 
@@ -37,5 +33,5 @@ const HomeContent = () => {
 
 
 
- export default HomeContent;
+ export default TriviaQuiz;
 

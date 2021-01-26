@@ -12,6 +12,7 @@ import Disclaimer from './pages/disclaimer';
 import PrivacyPolicy from './pages/privacyPolicy';
 import TermsAndCondition from './pages/termAndCondition';
 import NotFound from './pages/notFound';
+import TriviaQuiz from './components/dashboard/triviaQuiz';
 
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
           <Route exact path='/' component={Dashboard} />
           <Route path='/createBlog' component={CreateQus} />
           <Route  path='/about' component={About} />
+          <Route  path='/flipkart-daily-trivia-quiz' component={TriviaQuiz} />
           <Route  path='/faq' component={FAQ} />
           <Route  path='/contact' component={Contact} />
           <Route  path='/disclaimer' component={Disclaimer} />

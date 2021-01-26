@@ -10,7 +10,7 @@ class FetchedQuiz extends Component {
    state={
       questions:[],
       currentPage: 1,
-      postsPerPage: 5,
+      postsPerPage: 1,
      
     }
     

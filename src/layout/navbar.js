@@ -12,6 +12,7 @@ const HeaderNavbar = (props) => {
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mr-auto">
         <Nav.Link href="/about">About</Nav.Link>
+        <Nav.Link href="/flipkart-daily-trivia-quiz">Trivia Quiz</Nav.Link>
         <Nav.Link href="/contact">Contact</Nav.Link>
         <Nav.Link href="/faq">FAQ</Nav.Link>
       </Nav>
