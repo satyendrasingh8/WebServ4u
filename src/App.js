@@ -14,6 +14,9 @@ import TermsAndCondition from './pages/termAndCondition';
 import NotFound from './pages/notFound';
 import TriviaQuiz from './components/dashboard/triviaQuiz';
 import FakeOrNot from './components/fakeOrNot/fakeOrNot';
+import CreateFakeOrNot from './components/fakeOrNot/createPost/createFakeOrNot';
+import KyaBoltiPublic from './components/kyaBoltiPublic/kyaBoltiPublic';
+import CreateKyaBoltiPublic from './components/kyaBoltiPublic/createPost/createKyaBoltiPublic';
 
 
 class App extends Component {
@@ -25,9 +28,11 @@ class App extends Component {
           <Switch>
           <Route exact path='/' component={Dashboard} />
           <Route path='/createBlog' component={CreateQus} />
+          <Route path='/createKyaBoltiPublic' component={CreateKyaBoltiPublic} />
           <Route  path='/about' component={About} />
           <Route  path='/flipkart-daily-trivia-quiz' component={TriviaQuiz} />
           <Route  path='/flipkart-fake-or-not-quiz' component={FakeOrNot} />
+          <Route  path='/flipkart-kya-bolti-public-quiz' component={KyaBoltiPublic} />
           <Route  path='/faq' component={FAQ} />
           <Route  path='/contact' component={Contact} />
           <Route  path='/disclaimer' component={Disclaimer} />

@@ -18,7 +18,7 @@ variant="top" height="500px"   className="d-block w-100" />
 <Card.Title>Q1. What is Flipkart Daily Trivia Quiz?  </Card.Title>
 <Card.Text>Ans.  Daily Trivia Quiz is a GK MCQ based Game to enhance your Knowledge
   as well win many amazing prizes , coupons, super coins etc. To get 
-  all answers in first please visit <a href="webserv4u.com">WebServ4u.com </a>
+  all answers in first please visit <a href="https://www.webserv4u.com">WebServ4u.com </a>
   and answers all Questions
    correctly.
    </Card.Text>

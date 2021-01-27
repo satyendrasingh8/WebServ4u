@@ -8,14 +8,14 @@ const GameType = () => {
         <div>
          
       <Card> 
-      <Card.Header style={{textShadow:"1px 1px black" }}>List of Flipkart Daily Quizs</Card.Header>
+      <Card.Header  style={{textShadow:"1px 1px black" }}><h3>List of Flipkart Daily Quizs</h3></Card.Header>
   <ListGroup variant="flush">
   <a href='/flipkart-daily-trivia-quiz'>  <ListGroup.Item>Flipkart Daily Trivia Quiz Answers</ListGroup.Item></a>
   <a href='/flipkart-fake-or-not-quiz'> <ListGroup.Item>Flipkart Fake or Not? Answers</ListGroup.Item></a>
-    <ListGroup.Item>Flipkart Kya Bolti Public</ListGroup.Item>
-    <ListGroup.Item>Flipkart Daam Sahi Hai</ListGroup.Item>
-    <ListGroup.Item>Flipkart For Your Information(FYI)</ListGroup.Item>
-    <ListGroup.Item>Flipkart Kaun? Who Did It?</ListGroup.Item>
+   <a href="/flipkart-kya-bolti-public-quiz"> <ListGroup.Item>Flipkart Kya Bolti Public? Answers</ListGroup.Item></a>
+   <a href="/flipkart-daam-sahi-hai-quiz"><ListGroup.Item>Flipkart Daam Sahi Hai</ListGroup.Item></a>
+   <a href="/flipkart-for-your-infromation-quiz"> <ListGroup.Item>Flipkart For Your Information(FYI)</ListGroup.Item></a>
+   <a href="/flipkart-kaun?-who-did-it-quiz">   <ListGroup.Item>Flipkart Kaun? Who Did It?</ListGroup.Item></a>
   </ListGroup>
       </Card>
         </div>

@@ -23,46 +23,46 @@ const DashboardGallery = () => {
 <Card border="dark" style={{maxWidth:"19rem",margin:"30px"}}>
   <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"} />
   <Card.Body>
-    <Card.Title>Flipkart Fake Or Not Quiz?</Card.Title>
+    <Card.Title>Flipkart Fake Or Not Quiz? Answers</Card.Title>
    
     <Button variant="primary">Answer</Button>
   </Card.Body>
 </Card></a>
-<a href='/flipkart-daily-trivia-quiz'> 
+<a href='/flipkart-kya-bolti-public-quiz'> 
 <Card border="dark" style={{maxWidth:"19rem",margin:"30px"}} >
   <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"} />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>Flipkart Kya Bolti Public Quiz? Answers</Card.Title>
     
     <Button variant="primary">Answer</Button>
   </Card.Body>
 </Card></a>
 </CardGroup>
 <CardGroup style={{margin:"auto"}}>
-        <a href='/flipkart-daily-trivia-quiz'> 
+        <a href='/flipkart-daam-sahi-hai-qui'> 
         <Card border="dark" style={{maxWidth:"19rem",margin:"30px"}}>
   <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"} />
   <Card.Body>
-    <Card.Title >Flipkart Daily Trivia Quiz Answers </Card.Title>
+    <Card.Title >Flipkart Daam Sahi Hai? Quiz Answers </Card.Title>
   
     <Button variant="primary">Answer</Button>
   </Card.Body>
 </Card>
          </a>
-         <a href='/flipkart-daily-trivia-quiz'> 
+         <a href='/flipkart-for-your-infromation-quiz'> 
 <Card border="dark" style={{maxWidth:"19rem",margin:"30px"}}>
   <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"} />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>Flipkart For Your Information(FYI) Quiz Answers</Card.Title>
    
     <Button variant="primary">Answer</Button>
   </Card.Body>
 </Card></a>
-<a href='/flipkart-daily-trivia-quiz'> 
+<a href='/flipkart-kaun?-who-did-it-quiz'> 
 <Card border="dark" style={{maxWidth:"19rem",margin:"30px"}} >
   <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"} />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title> Flipkart Kaun? Who did it? Quiz Answers</Card.Title>
     
     <Button variant="primary">Answer</Button>
   </Card.Body>

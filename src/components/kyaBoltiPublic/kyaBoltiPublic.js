@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Card } from 'react-bootstrap';
 import HowToPlay from './howToPlay';
 import QuizDescription from './quizDesc';
 import QuizHead from './quizHead';
 import SlidingImage from './slidingImage';
-
 import FetchComment from '../comment/fetchComment'
 import Comment from '../comment/comment'
-import FetchFakeOrNot from './fetchFakeOrNot';
+import FetchKyaBoltiPublic from './fetchkyaBoltiPublic';
 
-const FakeOrNot = () => {
+
+const KyaBoltiPublic = () => {
 
 
  
@@ -20,7 +20,7 @@ const FakeOrNot = () => {
   <SlidingImage />
   <QuizDescription />
  <HowToPlay />
-<FetchFakeOrNot />
+<FetchKyaBoltiPublic />
   <FetchComment />
   <Comment />
  
@@ -33,4 +33,4 @@ const FakeOrNot = () => {
 
 
 
- export default FakeOrNot;
+ export default KyaBoltiPublic;
