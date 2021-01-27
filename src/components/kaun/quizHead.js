@@ -15,7 +15,7 @@ const QuizHead = () => {
     return(
   <div>
     
-      <Card.Header as="h3"> Get Daily Flipkart  <span style={{color:"red"}}> Fake Or Not?</span>  Quiz answers
+      <Card.Header as="h3"> Get Daily Flipkart  <span style={{color:"red"}}> Kaun? Who did it?</span>  Quiz answers
     <span style={{color:"red"}}> {moment(new Date()).format('Do MMM YYYY')}</span>.Answers these Quiz Answers to get Coupon Discount,
     amazing Gifts and earn Flipkart super coins.
        </Card.Header><br></br>

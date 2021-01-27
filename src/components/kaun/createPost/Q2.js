@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Button, FormFeedback, Form, FormGroup, Label, Input } from 'reactstrap'
 import { connect } from 'react-redux'
-import { fakeOrNot } from "../../../store/actions/projectAction"
+import {  kaun } from "../../../store/actions/projectAction"
 class Q2 extends Component {
   state = {
     quizType:'',
@@ -12,7 +12,7 @@ class Q2 extends Component {
   }
 handleSubmit(e) {
     e.preventDefault()
-    this.props.fakeOrNot(this.state);
+    this.props.kaun(this.state);
      this.resetForm()
  }
 resetForm() {
@@ -106,7 +106,7 @@ render() {
 
 const mapDispatchToProps = dispatch => {
     return {
-      fakeOrNot: (project) => dispatch(fakeOrNot(project))
+      kaun: (project) => dispatch(kaun(project))
     }
   }
 

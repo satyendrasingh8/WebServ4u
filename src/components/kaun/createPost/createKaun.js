@@ -1,7 +1,7 @@
 import React from "react"
 import SelectedPage from './selectedPage'
 
-class CreateFakeOrNot extends React.Component {
+class CreateKaun extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
@@ -56,4 +56,4 @@ class CreateFakeOrNot extends React.Component {
     }
   }
   
-export default CreateFakeOrNot;
+export default CreateKaun;

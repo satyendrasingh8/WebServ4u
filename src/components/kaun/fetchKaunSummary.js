@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 
 
 
-const FetchFakeOrNotSummary = ({data}) => {
+const FetchKaunSummary = ({data}) => {
     
     return(
  <div>
@@ -31,4 +31,4 @@ const FetchFakeOrNotSummary = ({data}) => {
     );
 }
 
-export default FetchFakeOrNotSummary;
+export default FetchKaunSummary;

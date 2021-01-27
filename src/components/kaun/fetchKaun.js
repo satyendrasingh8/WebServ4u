@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import db from '../../config/firebase'
 import QuizPagination from '../pagination/quizPagination';
-import FetchFakeOrNotSummary from './fetchFakeOrNotSummary';
+import FetchKaunSummary from './fetchKaunSummary';
 
 
-class FetchFakeOrNot extends Component {
+
+class FetchKaun extends Component {
  
    state={
       questions:[],
@@ -16,7 +17,7 @@ class FetchFakeOrNot extends Component {
     componentDidMount() {
     
       this.setState({ loading: true });
-      db.collection("fakeOrNot").orderBy('createdAt','desc')
+      db.collection("kaun").orderBy('createdAt','desc')
       .onSnapshot(querySnapshot=> {
         const questions = [];
           querySnapshot.docs.map(doc => {
@@ -55,7 +56,7 @@ class FetchFakeOrNot extends Component {
   {currentPosts && Array.from(currentPosts).map((data)=> {
    return (
        <div> 
-        <FetchFakeOrNotSummary data={data} />
+        <FetchKaunSummary data={data} />
         
            </div>
    )
@@ -65,4 +66,4 @@ class FetchFakeOrNot extends Component {
     );
 }}
 
-export default FetchFakeOrNot;
+export default FetchKaun;
