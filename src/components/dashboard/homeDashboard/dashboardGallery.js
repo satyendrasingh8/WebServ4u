@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Card, CardGroup, Col, Container, ListGroup, Row } from 'react-bootstrap';
+import { Button, Card, CardGroup, Col, Container, ListGroup, Nav, Row } from 'react-bootstrap';
 
 
 const DashboardGallery = () => {
@@ -8,77 +8,66 @@ const DashboardGallery = () => {
         <div>
          
       <Card> 
-      <CardGroup>
-      <Card border="dark" style={{margin:"30px"}}>
+      <CardGroup style={{margin:"auto"}}>
+        <a href='/flipkart-daily-trivia-quiz'> 
+        <Card border="dark" style={{maxWidth:"19rem",margin:"30px"}}>
   <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"} />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
+    <Card.Title >Flipkart Daily Trivia Quiz Answers </Card.Title>
+  
     <Button variant="primary">Answer</Button>
   </Card.Body>
 </Card>
-<Card border="dark" style={{margin:"30px"}}>
+         </a>
+         <a href='/flipkart-fake-or-not-quiz'> 
+<Card border="dark" style={{maxWidth:"19rem",margin:"30px"}}>
+  <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"} />
+  <Card.Body>
+    <Card.Title>Flipkart Fake Or Not Quiz?</Card.Title>
+   
+    <Button variant="primary">Answer</Button>
+  </Card.Body>
+</Card></a>
+<a href='/flipkart-daily-trivia-quiz'> 
+<Card border="dark" style={{maxWidth:"19rem",margin:"30px"}} >
   <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"} />
   <Card.Body>
     <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
+    
     <Button variant="primary">Answer</Button>
   </Card.Body>
-</Card>
-<Card border="dark" style={{margin:"30px"}} >
-  <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"} />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Answer</Button>
-  </Card.Body>
-</Card>
+</Card></a>
 </CardGroup>
-<CardGroup>
-      <Card border="dark" style={{margin:"30px"}}>
+<CardGroup style={{margin:"auto"}}>
+        <a href='/flipkart-daily-trivia-quiz'> 
+        <Card border="dark" style={{maxWidth:"19rem",margin:"30px"}}>
   <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"} />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
+    <Card.Title >Flipkart Daily Trivia Quiz Answers </Card.Title>
+  
     <Button variant="primary">Answer</Button>
   </Card.Body>
 </Card>
-<Card border="dark" style={{margin:"30px"}}>
+         </a>
+         <a href='/flipkart-daily-trivia-quiz'> 
+<Card border="dark" style={{maxWidth:"19rem",margin:"30px"}}>
   <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"} />
   <Card.Body>
     <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
+   
     <Button variant="primary">Answer</Button>
   </Card.Body>
-</Card>
-<Card border="dark" style={{margin:"30px"}} >
+</Card></a>
+<a href='/flipkart-daily-trivia-quiz'> 
+<Card border="dark" style={{maxWidth:"19rem",margin:"30px"}} >
   <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"} />
   <Card.Body>
     <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
+    
     <Button variant="primary">Answer</Button>
   </Card.Body>
-</Card>
-</CardGroup>
-      </Card>
+</Card></a>
+</CardGroup>      </Card>
         </div>
     )
 }
