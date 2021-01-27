@@ -14,8 +14,8 @@ const GameType = () => {
   <a href='/flipkart-fake-or-not-quiz'> <ListGroup.Item>Flipkart Fake or Not? Answers</ListGroup.Item></a>
    <a href="/flipkart-kya-bolti-public-quiz"> <ListGroup.Item>Flipkart Kya Bolti Public? Answers</ListGroup.Item></a>
    <a href="/flipkart-daam-sahi-hai-quiz"><ListGroup.Item>Flipkart Daam Sahi Hai</ListGroup.Item></a>
-   <a href="/flipkart-for-your-infromation-quiz"> <ListGroup.Item>Flipkart For Your Information(FYI)</ListGroup.Item></a>
-   <a href="/flipkart-kaun?-who-did-it-quiz">   <ListGroup.Item>Flipkart Kaun? Who Did It?</ListGroup.Item></a>
+   <a href="/flipkart-for-your-infromation-quiz"> <ListGroup.Item>Flipkart For Your Information(FYI) Quiz Answers</ListGroup.Item></a>
+   <a href="/flipkart-kaun?-who-did-it-quiz">   <ListGroup.Item>Flipkart Kaun? Who Did It? Quiz Answers</ListGroup.Item></a>
   </ListGroup>
       </Card>
         </div>

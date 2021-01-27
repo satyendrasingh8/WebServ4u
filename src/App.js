@@ -19,6 +19,8 @@ import KyaBoltiPublic from './components/kyaBoltiPublic/kyaBoltiPublic';
 import CreateKyaBoltiPublic from './components/kyaBoltiPublic/createPost/createKyaBoltiPublic';
 import DaamSahiHai from './components/daamSahiHai/daamSahiHai';
 import CreateDaamSahiHai from './components/daamSahiHai/createPost/createDaamSahiHai';
+import FYI from './components/fYI/fYI';
+import CreateFYI from './components/fYI/createPost/createFYI';
 
 
 class App extends Component {
@@ -33,11 +35,13 @@ class App extends Component {
           <Route path='/createKyaBoltiPublic' component={CreateKyaBoltiPublic} />
           <Route path='/createFakeOrNot' component={CreateFakeOrNot} />
           <Route path='/createDaamSahiHai' component={CreateDaamSahiHai} />
+          <Route path='/createFYI' component={CreateFYI} />
           <Route  path='/about' component={About} />
           <Route  path='/flipkart-daily-trivia-quiz' component={TriviaQuiz} />
           <Route  path='/flipkart-fake-or-not-quiz' component={FakeOrNot} />
           <Route  path='/flipkart-kya-bolti-public-quiz' component={KyaBoltiPublic} />
           <Route  path='/flipkart-daam-sahi-hai-quiz' component={DaamSahiHai} />
+          <Route  path='/flipkart-for-your-infromation-quiz' component={FYI} />
           <Route  path='/faq' component={FAQ} />
           <Route  path='/contact' component={Contact} />
           <Route  path='/disclaimer' component={Disclaimer} />

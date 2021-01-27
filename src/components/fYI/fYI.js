@@ -7,9 +7,10 @@ import SlidingImage from './slidingImage';
 
 import FetchComment from '../comment/fetchComment'
 import Comment from '../comment/comment'
-import FetchFakeOrNot from './fetchFakeOrNot';
+import FetchFYI from './fetchFYI';
 
-const FakeOrNot = () => {
+
+const FYI = () => {
 
 
  
@@ -20,7 +21,7 @@ const FakeOrNot = () => {
   <SlidingImage />
   <QuizDescription />
  <HowToPlay />
-<FetchFakeOrNot />
+<FetchFYI />
   <FetchComment />
   <Comment />
  
@@ -33,4 +34,4 @@ const FakeOrNot = () => {
 
 
 
- export default FakeOrNot;
+ export default FYI;

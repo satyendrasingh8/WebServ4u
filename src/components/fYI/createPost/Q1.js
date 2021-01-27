@@ -1,7 +1,7 @@
 import React from "react"
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap' 
 import { connect } from 'react-redux'
-import { fakeOrNot } from "../../../store/actions/projectAction"
+import { fYI } from "../../../store/actions/projectAction"
 
 class Q1 extends React.Component {
     
@@ -12,7 +12,7 @@ class Q1 extends React.Component {
   }
 handleSubmit(e) {
     e.preventDefault()
-     this.props.fakeOrNot(this.state);
+     this.props.fYI(this.state);
      this.resetForm()
  }
 resetForm() {
@@ -81,7 +81,7 @@ render() {
   
   const mapDispatchToProps = dispatch => {
     return {
-      fakeOrNot: (project) => dispatch(fakeOrNot(project))
+      fYI: (project) => dispatch(fYI(project))
     }
   }
 
