@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import MetaDecorator from "../../utils/metaDecorator"
 
 
 
@@ -9,7 +10,8 @@ const FetchKyaBoltiPublicSummary = ({data}) => {
     return(
  <div>
    <div key={data.id} style={{marginBottom:"20px"}}>
-      
+   <MetaDecorator title={data.quizType} description={data.Qus1} />
+
       <Card>
    <b ><Card.Title style={{fontSize:28}}><div style={{textShadow:"1px 1px black" }}> {data.quizType}</div>
        </Card.Title> </b>

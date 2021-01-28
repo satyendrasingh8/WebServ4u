@@ -5,7 +5,7 @@ import FetchKaunSummary from './fetchKaunSummary';
 
 
 
-class FetchKaun extends Component {
+class FetchKaunWhoDidIt extends Component {
  
    state={
       questions:[],
@@ -17,7 +17,7 @@ class FetchKaun extends Component {
     componentDidMount() {
     
       this.setState({ loading: true });
-      db.collection("kaun").orderBy('createdAt','desc')
+      db.collection('kaun').orderBy('createdAt','desc')
       .onSnapshot(querySnapshot=> {
         const questions = [];
           querySnapshot.docs.map(doc => {
@@ -66,4 +66,4 @@ class FetchKaun extends Component {
     );
 }}
 
-export default FetchKaun;
+export default FetchKaunWhoDidIt;

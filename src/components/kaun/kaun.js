@@ -7,7 +7,8 @@ import SlidingImage from './slidingImage';
 
 import FetchComment from '../comment/fetchComment'
 import Comment from '../comment/comment'
-import FetchKaun from './fetchKaun';
+import FetchKaunWhoDidIt from './fetchKaun';
+
 
 
 const Kaun = () => {
@@ -21,7 +22,7 @@ const Kaun = () => {
   <SlidingImage />
   <QuizDescription />
  <HowToPlay />
-<FetchKaun />
+<FetchKaunWhoDidIt />
   <FetchComment />
   <Comment />
  

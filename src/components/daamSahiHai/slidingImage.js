@@ -14,15 +14,7 @@ const SlidingImage = () => {
     <div className="text-black">
      
     <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item interval={2000}>
-        <img
-          className="d-block w-100"
-          src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"}
-          height="500px"
-          alt="First slide"
-        />
-        
-      </Carousel.Item>
+      
       <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
@@ -36,7 +28,7 @@ const SlidingImage = () => {
       <Carousel.Item interval={2000}>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL + "/images/trivia.png"}
+          src={process.env.PUBLIC_URL + "/images/3.png"}
           height="500px"
            alt="Third slide"
         />
