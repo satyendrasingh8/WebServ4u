@@ -1,6 +1,6 @@
 
 import { useState,useEffect} from 'react';
-import { Button, Form, FormGroup, Label, Input } from 'reactstrap' 
+import { Button, Form, FormGroup, Label, Input, Card } from 'reactstrap' 
 import firebase from '../../config/firebase'
 import {useAuth} from './authContext'
 import {useHistory,useLocation} from 'react-router-dom';
@@ -45,8 +45,9 @@ setLoading(false)
 
     return (
         <div>
-  <Form onSubmit={handleSubmit}>
-          <FormGroup controlId="formBasicquizType">
+      <Card style={{ margin:'0 auto',padding:'30px' ,marginTop:'50px',marginBottom:'230px', width:"50%"}} >
+      <Form onSubmit={handleSubmit} style={{margin:'0 auto', width:"80%"}}>
+          <FormGroup controlId="formBasicquizType" >
               <Label className="text-muted">Email</Label>
               <Input
                 type="email"
@@ -70,11 +71,12 @@ setLoading(false)
                 required
               />
             </FormGroup>
-            <Button variant="primary" type="submit" >
+            <Button variant="secondary" type="submit" >
             {loading ? 'loading' : 'signIn'}
             </Button>
             <h5 style={{color:'red'}} > {error} </h5>
             </Form>
+      </Card>
         </div>
     )
 }
