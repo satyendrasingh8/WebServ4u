@@ -11,7 +11,7 @@ const FetchedDataSummary = ({data}) => {
    <div key={data.id} style={{marginBottom:"20px"}}>
       <MetaDecorator title={data.quizType} description={data.Qus1} />
       <Card>
-   <b ><Card.Title style={{fontSize:28}}><div style={{textShadow:"1px 1px black" }}> {data.quizType}</div>
+   <b ><Card.Title style={{fontSize:28,paddingTop:'30px'}}><div style={{textShadow:"1px 1px black" }}> {data.quizType}</div>
        </Card.Title> </b>
   <Card.Body>
   <Card.Title> {data.Qus1}  </Card.Title>

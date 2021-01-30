@@ -1,13 +1,16 @@
 import React from 'react';
 import { Card, Image } from 'react-bootstrap';
-
+import MetaDecorator from "../../utils/metaDecorator"
 
 const QuizDescription = () =>{
     return (
         <div>
-            
+              <MetaDecorator title='about flipkart kya bolti public Quiz description' 
+    description=' Here you have to get quick live updates for each Kya bolti public Quiz Answer everyday at
+    12:00am.' />
+     
 <Card.Text><br></br>
-      Here you have to get quick live updates for each Kya Bolti Public Quiz Question everyday at 11:50pm.
+      Here you have to get quick live updates for each <b>Kya Bolti Public</b> Quiz Question everyday at 12:00am.
       By answering these Quiz Questions you can win many gift vouchers,coupons,gifts,super coins etc.
       &nbsp; <br></br> <Image src="https://seeklogo.com/images/F/flipkart-logo-3F33927DAA-seeklogo.com.png"
       width={60}

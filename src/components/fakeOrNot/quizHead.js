@@ -15,11 +15,13 @@ const QuizHead = () => {
     return(
   <div>
     
-      <Card.Header as="h3"> Get Daily Flipkart  <span style={{color:"red"}}> Fake Or Not?</span>  Quiz answers
-    <span style={{color:"red"}}> {moment(new Date()).format('Do MMM YYYY')}</span>.Answers these Quiz Answers to get Coupon Discount,
+      <Card.Header as="h3"> Get Daily Flipkart  <span style={{color:"red"}}> Fake Or Not?</span>  
+      Quiz answers
+    <span style={{color:"red"}}> {moment(new Date()).format('Do MMM YYYY')}</span>.Answers 
+    these Quiz Answers to get Coupon Discount,
     amazing Gifts and earn Flipkart super coins.
        </Card.Header><br></br>
-       <Card.Subtitle>get flipkart Quiz answers daily<span style={{color:"red"}}> in
+       <Card.Subtitle>get flipkart <b>fake or not</b> Quiz answers daily<span style={{color:"red"}}> in
         first instance</span> and win exciting awards,prizes,gifts,free coupons and many more 
         by answering correctly </Card.Subtitle>
         <Card.Text as="h4">&nbsp; Join us: &nbsp;&nbsp; </Card.Text>
@@ -31,7 +33,7 @@ const QuizHead = () => {
 </a><br></br>
  </Card.Subtitle>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
- <Card.Link href="/"><b><i>WebServ4u.com</i> </b></Card.Link>
+ <Card.Link href="/"><b><i>WebServ4u.com </i> </b></Card.Link>
      
   </div>
     );

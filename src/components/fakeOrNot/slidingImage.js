@@ -17,7 +17,7 @@ const SlidingImage = () => {
       <Carousel.Item interval={2000}>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"}
+          src={process.env.PUBLIC_URL + "/images/1.png"}
           height="500px"
           alt="First slide"
         />
