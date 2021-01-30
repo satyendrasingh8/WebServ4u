@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import db from '../../config/firebase'
+import firebase from '../../config/firebase'
 import QuizPagination from '../pagination/quizPagination';
 import FetchKyaBoltiPublicSummary from './fetchKyaBoltiPublicSummary';
 
@@ -17,6 +17,7 @@ class FetchKyaBoltiPublic extends Component {
     componentDidMount() {
     
       this.setState({ loading: true });
+      const db = firebase.firestore();
       db.collection("kyaBoltiPublic").orderBy('createdAt','desc')
       .onSnapshot(querySnapshot=> {
         const questions = [];

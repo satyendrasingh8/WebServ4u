@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FetchedDataSummary from './fetchedDataSummary';
-import db from '../../config/firebase'
+import firebase from '../../config/firebase'
 import QuizPagination from '../pagination/quizPagination';
 import MetaDecorator from "../../utils/metaDecorator"
 const content = require('../../dummyData/home.json')
@@ -17,6 +17,7 @@ class FetchedQuiz extends Component {
     componentDidMount() {
     
       this.setState({ loading: true });
+      const db = firebase.firestore();
       db.collection("createQuiz").orderBy('createdAt','desc')
       .onSnapshot(querySnapshot=> {
         const questions = [];

@@ -1,9 +1,9 @@
-import db from '../../config/firebase'
+import firebase from '../../config/firebase'
 
 
 export const createProject = (formData) => {
     return (dispatch) => {
-      
+      const db = firebase.firestore();
       db.collection('createQuiz').add({
         ...formData,
         createdAt: Date.now()
@@ -17,7 +17,7 @@ export const createProject = (formData) => {
 
   export const fakeOrNot = (formData) => {
     return (dispatch) => {
-      
+      const db = firebase.firestore();
       db.collection('fakeOrNot').add({
         ...formData,
         createdAt: Date.now()
@@ -31,7 +31,7 @@ export const createProject = (formData) => {
 
   export const kyaBoltiPublic = (formData) => {
     return (dispatch) => {
-      
+      const db = firebase.firestore();
       db.collection('kyaBoltiPublic').add({
         ...formData,
         createdAt: Date.now()
@@ -45,7 +45,7 @@ export const createProject = (formData) => {
 
   export const daamSahiHai = (formData) => {
     return (dispatch) => {
-      
+      const db = firebase.firestore();
       db.collection('daamSahiHai').add({
         ...formData,
         createdAt: Date.now()
@@ -61,7 +61,7 @@ export const createProject = (formData) => {
   
   export const fYI = (formData) => {
     return (dispatch) => {
-      
+      const db = firebase.firestore();
       db.collection('fYI').add({
         ...formData,
         createdAt: Date.now()
@@ -75,7 +75,7 @@ export const createProject = (formData) => {
 
   export const kaun = (formData) => {
     return (dispatch) => {
-      
+      const db = firebase.firestore();
       db.collection('kaun').add({
         ...formData,
         createdAt: Date.now()

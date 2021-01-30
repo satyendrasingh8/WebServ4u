@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import db from '../../config/firebase'
+import firebase from '../../config/firebase'
 import QuizPagination from '../pagination/quizPagination';
 import FetchKaunSummary from './fetchKaunSummary';
 
@@ -17,6 +17,7 @@ class FetchKaunWhoDidIt extends Component {
     componentDidMount() {
     
       this.setState({ loading: true });
+      const db = firebase.firestore();
       db.collection('kaun').orderBy('createdAt','desc')
       .onSnapshot(querySnapshot=> {
         const questions = [];

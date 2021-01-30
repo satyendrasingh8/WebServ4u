@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FetchCommentSummary from './fetchCommentSummary';
-import db from '../../config/firebase'
+import firebase from '../../config/firebase'
 import CommentPagination from '../pagination/commentPagination';
 
 class FetchComment  extends Component {
@@ -13,6 +13,7 @@ class FetchComment  extends Component {
   
 
     componentDidMount(){
+      const db = firebase.firestore();
         db.collection("comments").orderBy('createdAt','desc')
         .onSnapshot(querySnapshot=> {
           const comments = [];

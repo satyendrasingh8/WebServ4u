@@ -23,29 +23,44 @@ import FYI from './components/fYI/fYI';
 import CreateFYI from './components/fYI/createPost/createFYI';
 import CreateKaun from './components/kaun/createPost/createKaun';
 import Kaun from './components/kaun/kaun';
+import SignIn from './layout/auth/SignIn'
+import {AuthProvider} from './layout/auth/authContext'
+import PrivateRoute from './layout/auth/privateRoute'
+
+
+
 
 
 class App extends Component {
+
   render() {
     return (
+      <AuthProvider>
       <BrowserRouter>
         <div className="App">
           <HeaderNavbar />
           <Switch>
           <Route exact path='/' component={Dashboard} />
-          <Route path='/createBlog' component={CreateQus} />
-          <Route path='/createKyaBoltiPublic' component={CreateKyaBoltiPublic} />
-          <Route path='/createFakeOrNot' component={CreateFakeOrNot} />
-          <Route path='/createDaamSahiHai' component={CreateDaamSahiHai} />
-          <Route path='/createFYI' component={CreateFYI} />
-          <Route path='/createKaun' component={CreateKaun} />
+          <PrivateRoute path='/createTrivia'  > 
+          <CreateQus />
+          </PrivateRoute>
+          <PrivateRoute path='/createKyaBoltiPublic'  > <CreateKyaBoltiPublic/> </PrivateRoute>
+          <PrivateRoute path='/createFakeOrNot'  > <CreateFakeOrNot /> </PrivateRoute>
+          <PrivateRoute path='/createDaamSahiHai'  ><CreateDaamSahiHai /> </PrivateRoute>
+          <PrivateRoute path='/createFYI'  > <CreateFYI /> </PrivateRoute>
+          <PrivateRoute path='/createKaun' > <CreateKaun /> </PrivateRoute>
           <Route  path='/about' component={About} />
+          <Route  path='/signin' >
+            <SignIn />
+             </Route>
+
           <Route  path='/flipkart-daily-trivia-quiz' component={TriviaQuiz} />
           <Route  path='/flipkart-fake-or-not-quiz' component={FakeOrNot} />
           <Route  path='/flipkart-kya-bolti-public-quiz' component={KyaBoltiPublic} />
           <Route  path='/flipkart-daam-sahi-hai-quiz' component={DaamSahiHai} />
           <Route  path='/flipkart-for-your-infromation-quiz' component={FYI} />
           <Route  path='/flipkart-kaun-who-did-it-quiz' component={Kaun} />
+          
           <Route  path='/faq' component={FAQ} />
           <Route  path='/contact' component={Contact} />
           <Route  path='/disclaimer' component={Disclaimer} />
@@ -55,7 +70,7 @@ class App extends Component {
           </Switch>
           <Footer />
         </div>
-      </BrowserRouter>
+      </BrowserRouter></AuthProvider>
     );
   }
 }

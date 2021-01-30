@@ -1,9 +1,9 @@
-import db from '../../config/firebase'
+import firebase from '../../config/firebase'
 
 
 export const createComment = (comment) => {
     return (dispatch) => {
-      
+      const db = firebase.firestore();
       db.collection('comments').add({
         ...comment,
         createdAt: Date.now()

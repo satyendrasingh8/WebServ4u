@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import db from '../../config/firebase'
+import firebase from '../../config/firebase'
 import QuizPagination from '../pagination/quizPagination';
 import FetchFakeOrNotSummary from './fetchFakeOrNotSummary';
 
@@ -16,6 +16,7 @@ class FetchFakeOrNot extends Component {
     componentDidMount() {
     
       this.setState({ loading: true });
+      const db = firebase.firestore();
       db.collection("fakeOrNot").orderBy('createdAt','desc')
       .onSnapshot(querySnapshot=> {
         const questions = [];

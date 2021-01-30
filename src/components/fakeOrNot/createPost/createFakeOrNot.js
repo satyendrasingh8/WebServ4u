@@ -1,4 +1,5 @@
 import React from "react"
+import { withRouter } from "react-router";
 import SelectedPage from './selectedPage'
 
 class CreateFakeOrNot extends React.Component {
@@ -56,4 +57,4 @@ class CreateFakeOrNot extends React.Component {
     }
   }
   
-export default CreateFakeOrNot;
+export default withRouter(CreateFakeOrNot);

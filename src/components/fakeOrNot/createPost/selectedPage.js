@@ -27,4 +27,4 @@ const SelectedPage = (props) => {
 }
 
 
-export default SelectedPage;
+export default (SelectedPage);
