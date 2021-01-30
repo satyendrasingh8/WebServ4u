@@ -45,8 +45,8 @@ setLoading(false)
 
     return (
         <div>
-      <Card style={{ margin:'0 auto',padding:'30px' ,marginTop:'50px',marginBottom:'230px', width:"50%"}} >
-      <Form onSubmit={handleSubmit} style={{margin:'0 auto', width:"80%"}}>
+      <Card style={{ margin:'0 auto',paddingTop:'30px' ,paddingBottom:'30px' ,marginTop:'50px',marginBottom:'230px', width:"70%"}} >
+      <Form onSubmit={handleSubmit} style={{margin:'0 auto', width:"90%"}}>
           <FormGroup controlId="formBasicquizType" >
               <Label className="text-muted">Email</Label>
               <Input
