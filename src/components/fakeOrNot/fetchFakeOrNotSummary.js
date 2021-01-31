@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import MetaDecorator from "../../utils/metaDecorator"
+import asyncMetaDecorator from '../../utils/asyncMetaDecorator';
 
 
 
@@ -9,7 +9,7 @@ const FetchFakeOrNotSummary = ({data}) => {
     return(
  <div>
    <div key={data.id} style={{marginBottom:"20px"}}>
-   <MetaDecorator title={data.quizType} description={data.Qus1} />
+   <asyncMetaDecorator title={data.quizType} url='https://webserv4u.com/flipkart-fake-or-not-quiz' />
       <Card>
    <b ><Card.Title style={{fontSize:28,paddingTop:'30px'}}><div style={{textShadow:"1px 1px black" }}> {data.quizType}</div>
        </Card.Title> </b>

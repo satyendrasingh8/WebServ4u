@@ -66,7 +66,7 @@ class App extends Component {
           <Route  path='/disclaimer' component={Disclaimer} />
           <Route  path='/privacyPolicy' component={PrivacyPolicy} />
           <Route  path='/termsAndCondition' component={TermsAndCondition} />
-          <Route   component={NotFound} />
+          
           </Switch>
           <Footer />
         </div>

@@ -18,7 +18,7 @@ class FetchedQuiz extends Component {
     
       this.setState({ loading: true });
       const db = firebase.firestore();
-      db.collection("createQuiz").orderBy('createdAt','desc')
+     db.collection("createQuiz").orderBy('createdAt','desc')
       .onSnapshot(querySnapshot=> {
         const questions = [];
           querySnapshot.docs.map(doc => {

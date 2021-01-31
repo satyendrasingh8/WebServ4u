@@ -18,6 +18,7 @@ class FetchDaamSahiHai extends Component {
     
       this.setState({ loading: true });
       const db = firebase.firestore();
+     const getData = async() =>{
       db.collection("daamSahiHai").orderBy('createdAt','desc')
       .onSnapshot(querySnapshot=> {
         const questions = [];
@@ -30,6 +31,9 @@ class FetchDaamSahiHai extends Component {
           })
         
       });
+    
+     }
+     getData()
       this.setState({ loading: false });
     }
 

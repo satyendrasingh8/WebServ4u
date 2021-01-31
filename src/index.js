@@ -8,21 +8,29 @@ import { createStore, applyMiddleware, } from 'redux'
 import rootReducer from './store/reducers/rootReducer'
 import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
-
+import ReactGA from 'react-ga';
 
 
 const store = createStore(rootReducer,
     applyMiddleware(thunk),
 
 );
-
-
-ReactDOM.render(
+const APP = (
   <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById('root')
+  <App />
+</Provider>
 );
+const rootElement = document.getElementById("root");
+
+if (rootElement.hasChildNodes()) {
+  ReactDOM.hydrate(APP, rootElement);
+} else {
+  ReactDOM.render(APP , rootElement);
+}
+
+ReactGA.initialize('UA-188434574-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
