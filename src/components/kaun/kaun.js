@@ -8,6 +8,7 @@ import SlidingImage from './slidingImage';
 import FetchComment from '../comment/fetchComment'
 import Comment from '../comment/comment'
 import FetchKaunWhoDidIt from './fetchKaun';
+import GameType from '../dashboard/homeDashboard/gameType';
 
 
 
@@ -23,6 +24,7 @@ const Kaun = () => {
   <QuizDescription />
  <HowToPlay />
 <FetchKaunWhoDidIt />
+<GameType />
   <FetchComment />
   <Comment />
  

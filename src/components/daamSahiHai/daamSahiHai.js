@@ -8,6 +8,7 @@ import SlidingImage from './slidingImage';
 import FetchComment from '../comment/fetchComment'
 import Comment from '../comment/comment'
 import FetchDaamSahiHai from './fetchDaamSahiHai';
+import GameType from '../dashboard/homeDashboard/gameType';
 
 
 const DaamSahiHai = () => {
@@ -22,6 +23,7 @@ const DaamSahiHai = () => {
   <QuizDescription />
  <HowToPlay />
 <FetchDaamSahiHai />
+<GameType />
   <FetchComment />
   <Comment />
  

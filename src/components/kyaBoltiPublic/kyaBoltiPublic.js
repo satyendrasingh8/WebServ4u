@@ -7,6 +7,7 @@ import SlidingImage from './slidingImage';
 import FetchComment from '../comment/fetchComment'
 import Comment from '../comment/comment'
 import FetchKyaBoltiPublic from './fetchkyaBoltiPublic';
+import GameType from '../dashboard/homeDashboard/gameType';
 
 
 const KyaBoltiPublic = () => {
@@ -21,6 +22,7 @@ const KyaBoltiPublic = () => {
   <QuizDescription />
  <HowToPlay />
 <FetchKyaBoltiPublic />
+<GameType />
   <FetchComment />
   <Comment />
  

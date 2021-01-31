@@ -7,6 +7,7 @@ import SlidingImage from './slidingImage';
 import FetchedQuiz from './fetchedData';
 import FetchComment from '../comment/fetchComment'
 import Comment from '../comment/comment'
+import GameType from './homeDashboard/gameType';
 
 const TriviaQuiz = () => {
 
@@ -21,6 +22,7 @@ const TriviaQuiz = () => {
  <HowToPlay />
 
  <FetchedQuiz />
+ <GameType />
  <FetchComment /> 
           <Comment />
 
