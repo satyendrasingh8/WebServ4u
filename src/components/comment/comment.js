@@ -16,18 +16,7 @@ handleSubmit(e) {
     e.preventDefault()
     this.props.createComment(this.state);
 
-//     db.collection("postComment").add({
-//       timestamp:Date.now(),
-//       name: this.state.name,
-//       comment: this.state.comment,
-//   })
-//   .then(function() {
-//       console.log("Document successfully written!");
-//   })
-//   .catch(function(error) {
-//       console.error("Error writing document: ", error);
-//   });
-//     console.log(name,comment);
+
      this.resetForm();
      
  }

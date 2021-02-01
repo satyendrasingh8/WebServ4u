@@ -9,14 +9,10 @@ import {
     faLinkedin
   } from "@fortawesome/free-brands-svg-icons";
   import './footer.css'
-  import { buildStyles, CircularProgressbar } from 'react-circular-progressbar';
-import 'react-circular-progressbar/dist/styles.css';
-import { Col, Row } from "react-bootstrap";
+import { Col, ProgressBar, Row } from "react-bootstrap";
 
 function Footer() {
-  const percentage = 96;
-  const percentage2 = 90;
-  const percentage3 = 85;
+  
   return (
     <div>
 
@@ -29,24 +25,29 @@ function Footer() {
         <h5 className="text-uppercase">Our Services</h5>
    <Row> 
   <Col>
- 
+  <ProgressBar label='95' animated now={95} />
 <br></br><br></br>
- <b>Client Retention</b>
-  <p>Great Partnerships, work together to deliver success.
+ <b style={{textShadow:"1px 1px blue" }}>Client Retention</b>
+  <p style={{fontFamily:"courier",
+    textIndent:"10px"}}>Great Partnerships, work together to deliver success.
     every step on the way...
   </p>
   </Col>
    
    <Col> 
+   <ProgressBar label='92' animated now={92} />
 <br></br><br></br>
- <b>Member Satisfaction</b>
-  <p> Enhancing the club experience. The power of your club lies in your members.
+ <b style={{textShadow:"1px 1px blue" }}>Member Satisfaction</b>
+  <p style={{fontFamily:"courier",
+    textIndent:"10px"}}> Enhancing the club experience. The power of your club lies in your members.
   </p>
 </Col>
 <Col>
-<br></br><br></br>
- <b>Net Promotor Score</b>
-  <p> Our unWavering focus on our customers 
+<ProgressBar label='85' animated now={85} />
+<br ></br><br></br>
+ <b style={{textShadow:"1px 1px blue" }}>Net Promotor Score</b>
+  <p style={{fontFamily:"courier",
+    textIndent:"10px"}}> Our unWavering focus on our customers 
     success speaks for itself.
   </p>
 
@@ -56,9 +57,37 @@ function Footer() {
       </div>
       
       <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 className="text-uppercase">Contact</h5>
+        <h5 className="text-uppercase" style={{textShadow:"1px 1px black" }}>Contact</h5>
 
-        <ul className="list-unstyled mb-0">
+       
+      </div>
+      
+      <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+    
+        <br></br>
+        <ul className="list-unstyled">
+          <Row> 
+     <Col><li>
+            <a href="/about" >About</a>
+          </li><br></br>
+          <li>
+            <a href="/faq" >FAQ</a>
+          </li><br></br>
+          <li>
+            <a href="/disclaimer" >Disclaimer</a>
+          </li><br></br>
+          <li>
+            <a href="/privacyPolicy" >PrivacyPolicy</a>
+          </li><br></br>
+          <li>
+            <a href="/termsAndCondition" >Terms&condition</a>
+          </li><br></br>
+          <li>
+            <a href="/" >Complaint</a>
+          </li><br></br>  </Col>
+    
+
+    <Col> <ul className="list-unstyled mb-0">
           <li><a  href="https://github.com/satyendrasingh8" >
   <FontAwesomeIcon icon={faGithub} size="2x"  /><b>  Github  </b> 
 </a> </li><br></br>
@@ -91,31 +120,8 @@ function Footer() {
   <FontAwesomeIcon icon={faInstagram} size="2x" /><b> Instagram </b> 
 </a>
           </li><br></br>
-        </ul>
-      </div>
-      
-      <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 className="text-uppercase mb-0">Links</h5>
-        <br></br>
-        <ul className="list-unstyled">
-          <li>
-            <a href="/about" >About</a>
-          </li><br></br>
-          <li>
-            <a href="/faq" >FAQ</a>
-          </li><br></br>
-          <li>
-            <a href="/disclaimer" >Disclaimer</a>
-          </li><br></br>
-          <li>
-            <a href="/privacyPolicy" >PrivacyPolicy</a>
-          </li><br></br>
-          <li>
-            <a href="/termsAndCondition" >Terms&condition</a>
-          </li><br></br>
-          <li>
-            <a href="/" >Complaint</a>
-          </li><br></br>
+        </ul> </Col>
+          </Row>
         </ul>
       </div>
       
