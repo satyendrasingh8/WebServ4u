@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import asyncMetaDecorator from '../../utils/asyncMetaDecorator';
-
+import MetaDecorator from '../../utils/metaDecorator';
 
 
 const FetchFYISummary = ({data}) => {
@@ -10,6 +10,8 @@ const FetchFYISummary = ({data}) => {
  <div>
    <div key={data.id} style={{marginBottom:"20px"}}>
    <asyncMetaDecorator title={data.quizType} url='https://webserv4u.com/flipkart-for-your-infromation-quiz' />
+   <MetaDecorator title='flipkart FYI answers' description=" flipkart FYI quiz generally ask three questions you 
+   have to answer all questios correctly join our team webserv4u.com and in touch with us " />
       <Card>
    <b ><Card.Title style={{fontSize:28,paddingTop:'30px'}}><div style={{textShadow:"1px 1px black" }}> {data.quizType}</div>
        </Card.Title> </b>

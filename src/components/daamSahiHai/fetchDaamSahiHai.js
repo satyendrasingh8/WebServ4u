@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import firebase from '../../config/firebase'
+import MetaDecorator from '../../utils/metaDecorator';
 import QuizPagination from '../pagination/quizPagination';
 import FetchDaamSahiHaiSummary from './fetchDaamSahiHaiSummary';
-
-
 
 class FetchDaamSahiHai extends Component {
  
@@ -57,7 +56,12 @@ class FetchDaamSahiHai extends Component {
 
     return(
  <div>
-
+  <MetaDecorator title='flipkart daam sahi hai answer today' description='Answer all the
+   Quiz questions correctly to Win Gifts.For more Details of The Dam Sahi Hai please visit at webserv4u.com
+   Quiz – Flipkart Redmi 9 Prime Smartphone Quiz. Name:- Daam Sahi Hai; Episode ...' />
+    <MetaDecorator title='flipkart daam sahi hai quiz answers || flipkart daam sahi hai cast '
+     description=' Flipkart Daam Sahi  Hai Quiz answers : play and win OPPO A11K smartphone, 
+     supercoins, and more - Quiz - webserv4u.com Daily.' />
   {currentPosts && Array.from(currentPosts).map((data)=> {
    return (
        <div> 

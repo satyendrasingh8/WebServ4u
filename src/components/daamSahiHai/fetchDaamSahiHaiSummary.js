@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import asyncMetaDecorator from '../../utils/asyncMetaDecorator';
-
+import MetaDecorator from '../../utils/metaDecorator';
 
 
 
@@ -11,6 +11,9 @@ const FetchDaamSahiHaiSummary = ({data}) => {
  <div>
    <div key={data.id} style={{marginBottom:"20px"}}>
    <asyncMetaDecorator title={data.quizType} url='https://webserv4u.com/flipkart-daam-sahi-hai-quiz' />
+   <MetaDecorator title={data.quizType} description='flipkart daily Daam Sahi Hai Quiz is Back.
+    Daily Daam Sahi Hai Quiz is generally asks
+    General Knowledge based Questions.Flipkart Quiz is started at 12:00Am and ends at 11:59am' />
       <Card>
    <b ><Card.Title style={{fontSize:28,paddingTop:'30px'}}><div style={{textShadow:"1px 1px black" }}> {data.quizType}</div>
        </Card.Title> </b>

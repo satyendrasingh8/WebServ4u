@@ -11,7 +11,7 @@ const FetchFakeOrNotSummary = ({data}) => {
  <div>
    <div key={data.id} style={{marginBottom:"20px"}}>
    <asyncMetaDecorator title='flipkart fake or not quiz answers today' url='https://webserv4u.com/flipkart-fake-or-not-quiz' />
-   <MetaDecorator title={data.quizType} description='get flipkart Trivia Quiz answers 
+   <MetaDecorator title={data.quizType} description='get flipkart fake or not Quiz answers 
    daily in first instance and win exciting 
    awards,prizes,gifts,free coupons and many more by answering correctly' />
       <Card>
