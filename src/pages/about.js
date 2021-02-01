@@ -8,7 +8,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
  faYoutube,
   faTelegram,
-  faGithub
+  faGithub,
+  faLinkedin
 
 } from "@fortawesome/free-brands-svg-icons";
 import MetaDecorator from '../utils/metaDecorator'
@@ -57,7 +58,18 @@ experiences, and real-life stories . <b>Laughter</b> is always <b>Welcome</b>".<
   who want to live a mindful, introspective life as well the 
   <b> occasional laugh. </b> </p>
 <br></br>
-
+<br></br><br></br>
+<h4 style={{textShadow:"1px 1px black" }}> About me</h4>
+<p style={{textShadow:".5px .5px black" }}> Hi! I'm <b>Satyendra</b>,  My father's name is Mr. <b>Ganesh Singh</b>, from
+ Chitrakoot,UttarPradesh India.
+  I'm currently pursuing Bachelor of Technology from <b>Computer
+     Science and Enginnering </b> from JK institue of applied physics and Technology university of
+     allahabad, Prayagraj UttarPradesh. 
+  I'm a passionate <b> Developer</b> in <b>Web</b> as well as in <b>Mobile App </b>. and crazy about 
+  exploring new technology. </p>
+  <p style={{fontFamily:"courier",
+    textIndent:"10px"}}> This is basically a blogging website in which we will provide answers of each Quiz that 
+    will be organising by Flipkart Game Session.</p>
 </Card>
 
 <Card className="outer-card">
@@ -275,7 +287,12 @@ experiences, and real-life stories . <b>Laughter</b> is always <b>Welcome</b>".<
   </Card.Body>
   <a  href="https://t.me/FlipkartDailyQuiz" ><Button variant="info">
   <FontAwesomeIcon icon={faTelegram} size="4x"  /> &nbsp;<b> Join our Telegram Group</b>  </ Button>
-</a><br></br>
+</a>
+<br></br>
+<a  href="https://www.linkedin.com/in/satyendra-singh-98985a196/" ><Button variant="info">
+  <FontAwesomeIcon icon={faLinkedin} size="4x"  />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<b> Follow on LinkedIn  </b>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; </ Button>
+</a>
+<br></br>
 <a  href="" ><Button variant="danger">
   <FontAwesomeIcon icon={faYoutube} size="4x"  /> &nbsp;<b> Join our Youtube channel</b>  </ Button>
 </a><br></br>
