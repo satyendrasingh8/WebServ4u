@@ -9,7 +9,7 @@ class FetchDaamSahiHai extends Component {
    state={
       questions:[],
       currentPage: 1,
-      postsPerPage: 1,
+      postsPerPage: 8,
      
     }
     
@@ -56,16 +56,16 @@ class FetchDaamSahiHai extends Component {
 
     return(
  <div>
-  <MetaDecorator title='flipkart daam sahi hai answer today' description='Answer all the
+  <MetaDecorator title={`flipkart daam sahi hai answer today ${this.props.curDate}`} description='Answer all the
    Quiz questions correctly to Win Gifts.For more Details of The Dam Sahi Hai please visit at webserv4u.com
    Quiz – Flipkart Redmi 9 Prime Smartphone Quiz. Name:- Daam Sahi Hai; Episode ...' />
-    <MetaDecorator title='flipkart daam sahi hai quiz answers || flipkart daam sahi hai cast '
+    <MetaDecorator title={`flipkart daam sahi hai quiz answers || flipkart daam sahi hai cast ${this.props.curDate}`}
      description=' Flipkart Daam Sahi  Hai Quiz answers : play and win OPPO A11K smartphone, 
      supercoins, and more - Quiz - webserv4u.com Daily.' />
   {currentPosts && Array.from(currentPosts).map((data)=> {
    return (
        <div> 
-        <FetchDaamSahiHaiSummary data={data} />
+        <FetchDaamSahiHaiSummary data={data} curDate={this.props.curDate} />
         
            </div>
    )

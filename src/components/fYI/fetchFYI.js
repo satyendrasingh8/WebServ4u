@@ -11,7 +11,7 @@ class FetchFYI extends Component {
    state={
       questions:[],
       currentPage: 1,
-      postsPerPage: 1,
+      postsPerPage: 8,
      
     }
     
@@ -54,12 +54,12 @@ class FetchFYI extends Component {
 
     return(
  <div>
-<MetaDecorator title='flipkart FYI Quiz' description=" webserv4u is a topmost blogging site that will provide fast & correct answers. FYI also known as Flipkart GK Badhega Prize Jeetega Quiz. " />
-<MetaDecorator title='flipkart FYI webserv4u' description=" By answering them you have to get some relevant prize,coupons,gift or super coins by regular participation in daily quiz.Make sure you have to follow our official Telegram channel to get daily imediate answers for each Quiz " />
+<MetaDecorator title={`flipkart FYI Quiz ${this.props.curDate}`} description=" webserv4u is a topmost blogging site that will provide fast & correct answers. FYI also known as Flipkart GK Badhega Prize Jeetega Quiz. " />
+<MetaDecorator title={`flipkart FYI webserv4u ${this.props.curDate}`} description=" By answering them you have to get some relevant prize,coupons,gift or super coins by regular participation in daily quiz.Make sure you have to follow our official Telegram channel to get daily imediate answers for each Quiz " />
   {currentPosts && Array.from(currentPosts).map((data)=> {
    return (
        <div> 
-        <FetchFYISummary data={data} />
+        <FetchFYISummary data={data} curDate={this.props.curDate}/>
         
            </div>
    )

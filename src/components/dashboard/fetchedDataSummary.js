@@ -1,17 +1,18 @@
-import React from 'react';
+import React from 'react'
 import { Card } from 'react-bootstrap';
 import asyncMetaDecorator from '../../utils/asyncMetaDecorator';
 import MetaDecorator from '../../utils/metaDecorator';
 
 
 
-const FetchedDataSummary = ({data}) => {
+const FetchedDataSummary = ({data,curDate}) => {
     
     return(
  <div>
+   <br></br>
    <div key={data.id} style={{marginBottom:"20px"}}>
-      <asyncMetaDecorator title={data.quizType} url='https://webserv4u.com/flipkart-daily-trivia-quiz' />
-      <MetaDecorator title={data.quizType} description='Flipkart Daily Trivia Quiz Is
+      <asyncMetaDecorator title={`Flipkart Daily Trivia Answers Today ${curDate}`} url='https://webserv4u.com/flipkart-daily-trivia-quiz' />
+      <MetaDecorator title={`Flipkart Daily Trivia Answers Today ${curDate}`} description='Flipkart Daily Trivia Quiz Is
        Live Now. You Can Play The Flipkart Daily Trivia
         Play And Win Vouchers, Gems & More. If You Are Looking 
         For Fast And Right Flipkart Quiz Answers Here Are All 5 

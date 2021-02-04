@@ -4,16 +4,18 @@ import asyncMetaDecorator from '../../utils/asyncMetaDecorator';
 import MetaDecorator from '../../utils/metaDecorator';
 
 
-const FetchFYISummary = ({data}) => {
+const FetchFYISummary = ({data,curDate}) => {
     
     return(
  <div>
-   <div key={data.id} style={{marginBottom:"20px"}}>
-   <asyncMetaDecorator title={data.quizType} url='https://webserv4u.com/flipkart-for-your-infromation-quiz' />
-   <MetaDecorator title='flipkart FYI answers' description=" flipkart FYI quiz generally ask three questions you 
+       <asyncMetaDecorator title={`Flipkart FYI Answers Today ${curDate}`} url='https://webserv4u.com/flipkart-for-your-infromation-quiz' />
+   <MetaDecorator title={`Flipkart FYI Answers Today ${curDate}`} description=" flipkart FYI quiz generally ask three questions you 
    have to answer all questios correctly join our team webserv4u.com and in touch with us " />
+   <div key={data.id} style={{marginBottom:"20px"}}>
+
       <Card>
-   <b ><Card.Title style={{fontSize:28,paddingTop:'30px'}}><div style={{textShadow:"1px 1px black" }}> {data.quizType}</div>
+   <b ><Card.Title style={{fontSize:28,paddingTop:'30px'}}>
+      <div style={{textShadow:"1px 1px black" }}> {data.quizType}</div>
        </Card.Title> </b>
   <Card.Body>
   <Card.Title> {data.Qus1}  </Card.Title>

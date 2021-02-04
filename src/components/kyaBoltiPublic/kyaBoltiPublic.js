@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from "moment"
 import { Card } from 'react-bootstrap';
 import HowToPlay from './howToPlay';
 import QuizDescription from './quizDesc';
@@ -12,16 +13,16 @@ import GameType from '../dashboard/homeDashboard/gameType';
 
 const KyaBoltiPublic = () => {
 
-
+  const curDate = moment(new Date()).format(' Do MMM YYYY');
  
     return(
     <div>
    <Card >
-  <QuizHead />
+  <QuizHead curDate={curDate}/>
   <SlidingImage />
-  <QuizDescription />
- <HowToPlay />
-<FetchKyaBoltiPublic />
+  <QuizDescription curDate={curDate}/>
+ <HowToPlay curDate={curDate}/>
+<FetchKyaBoltiPublic curDate={curDate}/>
 <GameType />
   <FetchComment />
   <Comment />

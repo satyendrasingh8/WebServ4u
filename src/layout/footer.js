@@ -22,11 +22,11 @@ function Footer() {
     <div className="row">
 
       <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-        <h5 className="text-uppercase">Our Services</h5>
+        <h5 className="text-uppercase">Our Services</h5><br></br>
    <Row> 
   <Col>
-  <ProgressBar label='95' animated now={95} />
-<br></br><br></br>
+  <ProgressBar label='95%' animated now={95} />
+  <br></br>
  <b style={{textShadow:"1px 1px blue" }}>Client Retention</b>
   <p style={{fontFamily:"courier",
     textIndent:"10px"}}>Great Partnerships, work together to deliver success.
@@ -35,16 +35,15 @@ function Footer() {
   </Col>
    
    <Col> 
-   <ProgressBar label='92' animated now={92} />
-<br></br><br></br>
+   <ProgressBar label='92%' animated now={92} />
+   <br></br>
  <b style={{textShadow:"1px 1px blue" }}>Member Satisfaction</b>
   <p style={{fontFamily:"courier",
     textIndent:"10px"}}> Enhancing the club experience. The power of your club lies in your members.
   </p>
 </Col>
 <Col>
-<ProgressBar label='85' animated now={85} />
-<br ></br><br></br>
+<ProgressBar label='85%' animated now={85} /><br></br>
  <b style={{textShadow:"1px 1px blue" }}>Net Promotor Score</b>
   <p style={{fontFamily:"courier",
     textIndent:"10px"}}> Our unWavering focus on our customers 
@@ -57,8 +56,6 @@ function Footer() {
       </div>
       
       <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 className="text-uppercase" style={{textShadow:"1px 1px black" }}>Contact</h5>
-
        
       </div>
       

@@ -2,14 +2,14 @@ import React from "react";
 import { Card, Container } from "react-bootstrap";
 import MetaDecorator from "../../utils/metaDecorator"
 
-const HowToPlay = () => {
+const HowToPlay = ({curDate}) => {
   return (
     <div >
     <Container fluid>
     <MetaDecorator title='how to play flipkart kaun ? Who did it Quiz' 
     description='Here are all the steps from beginning to end to play Flipkart daily 
     kaun? who did it Quiz' />
-    <Card.Title as="h3">How to play Flipkart<b>Kaun? Who did it</b> Quiz  </Card.Title>
+    <Card.Title as="h3">How to play Flipkart<b> Kaun? Who did it</b> Quiz  </Card.Title>
 <Card.Body>
 
 <Card.Text>1. first of all Download or Open the <b>flipkart</b> App in your android phone</Card.Text>
@@ -23,6 +23,14 @@ const HowToPlay = () => {
   <Card.Text>5. choose Flipkart <b>Kaun? Who did it </b> </Card.Text>
  <Card.Text>6. Answers all <b>three</b> Questions correctly and win your lucky prize. </Card.Text>
  <Card.Text>7. congratulations!,start playing. </Card.Text>
+ <br></br>
+ <h4 style={{textShadow:"1px 1px black" }}> About Flipkart Kaun Quiz - </h4> <br></br>
+ <Card.Text><b>Quiz Name - </b> Kaun? Who did it  </Card.Text>
+ <Card.Text><b>Quiz Prizes - </b> Gems, vouchers, prizes & coupons etc  </Card.Text>
+ <Card.Text><b>available - </b> Flipkart App(only mobile app)   </Card.Text>
+ <Card.Text><b>Based on - </b> General Knowlwdge  </Card.Text>
+ <Card.Text><b>Total Prizes - </b> 1 lakh + prizes  </Card.Text>
+ <Card.Text><b>Date - </b> {curDate}  </Card.Text>
 </Card.Body>
 
 

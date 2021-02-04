@@ -5,13 +5,13 @@ import MetaDecorator from '../../utils/metaDecorator';
 
 
 
-const FetchDaamSahiHaiSummary = ({data}) => {
+const FetchDaamSahiHaiSummary = ({data,curDate}) => {
     
     return(
  <div>
    <div key={data.id} style={{marginBottom:"20px"}}>
-   <asyncMetaDecorator title={data.quizType} url='https://webserv4u.com/flipkart-daam-sahi-hai-quiz' />
-   <MetaDecorator title={data.quizType} description='flipkart daily Daam Sahi Hai Quiz is Back.
+   <asyncMetaDecorator title={`Flipkart Daam Sahi Hai Quiz Answers Today ${curDate}`} url='https://webserv4u.com/flipkart-daam-sahi-hai-quiz' />
+   <MetaDecorator title={`Flipkart Daam Sahi Hai Quiz Answers Today ${curDate}`} description='flipkart daily Daam Sahi Hai Quiz is Back.
     Daily Daam Sahi Hai Quiz is generally asks
     General Knowledge based Questions.Flipkart Quiz is started at 12:00Am and ends at 11:59am' />
       <Card>

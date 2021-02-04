@@ -5,13 +5,13 @@ import MetaDecorator from '../../utils/metaDecorator';
 
 
 
-const FetchKaunSummary = ({data}) => {
+const FetchKaunSummary = ({data,curDate}) => {
     
     return(
  <div>
    <div key={data.id} style={{marginBottom:"20px"}}>
-   <asyncMetaDecorator title={data.quizType} url='https://webserv4u.com/flipkart-kaun-who-did-it-quiz' />
-   <MetaDecorator title={data.quizType} description="flipkart kaun answers || flipkart kaun who did it answers today  " />
+   <asyncMetaDecorator title={`Flipkart Kaun? who did it Answers Today ${curDate}`} url='https://webserv4u.com/flipkart-kaun-who-did-it-quiz' />
+   <MetaDecorator title={`Flipkart Kaun who did it Answers Today ${curDate}`} description="flipkart kaun answers || flipkart kaun who did it answers today  " />
       <Card>
    <b ><Card.Title style={{fontSize:28,paddingTop:'30px'}}><div style={{textShadow:"1px 1px black" }}> {data.quizType}</div>
        </Card.Title> </b>

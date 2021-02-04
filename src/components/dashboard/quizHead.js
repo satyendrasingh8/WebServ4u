@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Card,Button } from 'react-bootstrap';
-import moment from "moment"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTelegram,
@@ -11,19 +10,21 @@ import {
 import MetaDecorator from '../../utils/metaDecorator'
 const header=require('../../dummyData/home.json')
 
-const QuizHead = () => {
+const QuizHead = ({curDate}) => {
 
 
     return(
   <div>
     <MetaDecorator title={header.headerTitle} description={header.headerDescription} />
-      <Card.Header as="h3"> Get Daily Flipkart Trivia Quiz answers
-    <span style={{color:"red"}}> {moment(new Date()).format('Do MMM YYYY')}</span>.Answers these Quiz Answers to get Coupon Discount,
+   
+      <Card.Header as="h3"> Get Daily Flipkart <b style={{color:"red"}}>Trivia</b> Quiz answers
+    <span style={{color:"red"}}> {curDate}</span>.Answers these Quiz Questions to get Coupon Discount,
     amazing Gifts and earn Flipkart super coins.
        </Card.Header><br></br>
-       <Card.Subtitle>get flipkart <b>Trivia</b> Quiz answers daily<span style={{color:"red"}}> in
+       <Card.Subtitle>get flipkart <b>Daily Trivia</b> Quiz answers <span> <b> 
+       {curDate} </b> </span> <span style={{color:"red"}}> in
         first instance</span> and win exciting awards,prizes,gifts,free coupons and many more 
-        by answering correctly </Card.Subtitle>
+        by answering correctly. Get the latest Flipkart Quiz answers: </Card.Subtitle>
         <Card.Text as="h4">&nbsp; Join us: &nbsp;&nbsp; </Card.Text>
      <Card.Subtitle>  <a  href="https://t.me/FlipkartDailyQuiz" ><Button>
   <FontAwesomeIcon icon={faTelegram} size="2x"  />Join Telegram  </ Button>
