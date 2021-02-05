@@ -17,15 +17,42 @@ const QuizHead = ({curDate}) => {
   <div>
     <MetaDecorator title={header.headerTitle} description={header.headerDescription} />
    
-      <Card.Header as="h3"> Get Daily Flipkart <b style={{color:"red"}}>Trivia</b> Quiz answers
-    <span style={{color:"red"}}> {curDate}</span>.Answers these Quiz Questions to get Coupon Discount,
+      <Card.Header as="h3">Welcome to <a href="http://webserv4u.com/flipkart-trivia-today-answers">
+        WebServ4u</a>, If you are looking for
+       Today<b style={{color:"green"}}> flipkart Trivia</b> Quiz-
+    <span style={{color:"red"}}> {curDate} </span> they are at right place. Answers these Quiz Questions to get Coupon Discount,
     amazing Gifts and earn Flipkart super coins.
+    <p style={{color:"green"}}>Get today flipkart trivia quiz answers | 
+    Today’s Answers Of Flipkart {curDate} Quiz </p>
        </Card.Header><br></br>
-       <Card.Subtitle>get flipkart <b>Daily Trivia</b> Quiz answers <span> <b> 
+       <b style={{padding:'15px'}}>get flipkart <b>Trivia</b>today Quiz answers <span> <b> 
        {curDate} </b> </span> <span style={{color:"red"}}> in
         first instance</span> and win exciting awards,prizes,gifts,free coupons and many more 
-        by answering correctly. Get the latest Flipkart Quiz answers: </Card.Subtitle>
-        <Card.Text as="h4">&nbsp; Join us: &nbsp;&nbsp; </Card.Text>
+        by answering correctly. Get the latest Flipkart Quiz answers: </b>
+        <Card.Text as="h4">&nbsp;<br></br>
+        <MetaDecorator title={`flipkart trivia today  ${curDate}`} description='flipkart trivia today answer
+       Live Now. If You Are Looking For Fast And Right Flipkart Quiz Answers Here Are All 5 
+        Correct Answers To The Quiz.' />
+        <b> <a href="http://webserv4u.com/flipkart-trivia-today-answers">
+        flipkart trivia today </a> |
+        <MetaDecorator title={`flipkart trivia today answer ${curDate}`}
+         description='flipkart trivia today answer'/>
+         <a href="http://webserv4u.com/flipkart-trivia-today-answers">
+          flipkart trivia today answer </a>  |  <a href="http://webserv4u.com/flipkart-trivia-today-answers">
+          flipkart trivia questions and answers </a> | 
+          <MetaDecorator title={`today's flipkart trivia questions and answers ${curDate}`}
+         description="today's flipkart trivia questions and answers"/>
+         <a href="http://webserv4u.com/flipkart-trivia-today-answers">
+         today's flipkart trivia questions and answers </a> | 
+         <MetaDecorator title={`today flipkart trivia quiz answers ${curDate}`}
+         description="today's flipkart trivia questions and answers"/>
+         <a href="http://webserv4u.com/flipkart-trivia-today-answers">
+         today flipkart trivia quiz answers </a>  | 
+         <MetaDecorator title={` today flipkart trivia answers ${curDate}`}
+         description="today flipkart trivia answers"/>
+       <a href="http://webserv4u.com/flipkart-trivia-today-answers">
+       today flipkart trivia answers  </a>  </b> <br></br><br></br>
+         Join us: &nbsp;&nbsp; </Card.Text>
      <Card.Subtitle>  <a  href="https://t.me/FlipkartDailyQuiz" ><Button>
   <FontAwesomeIcon icon={faTelegram} size="2x"  />Join Telegram  </ Button>
 </a><br></br><br></br>

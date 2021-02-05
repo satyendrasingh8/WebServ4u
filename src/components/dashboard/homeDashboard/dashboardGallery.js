@@ -9,7 +9,7 @@ const DashboardGallery = () => {
          
       <Card> 
       <CardGroup style={{margin:"auto"}}>
-        <a href='/flipkart-daily-trivia-quiz'> 
+        <a href='/flipkart-trivia-today-answers'> 
         <Card border="dark" style={{maxWidth:"19rem",margin:"30px"}}>
   <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"} />
   <Card.Body>

@@ -19,10 +19,10 @@ const QuizHead = ({curDate}) => {
     <span style={{color:"red"}}> {curDate}</span>.Answers these Quiz Questions to get Coupon Discount,
     amazing Gifts and earn Flipkart super coins.
        </Card.Header><br></br>
-       <Card.Subtitle>get flipkart <b>Daam Sahi Hai</b> Quiz answers <span> <b> 
+       <b style={{padding:'15px'}}>get flipkart <b>Daam Sahi Hai</b> Quiz answers <span> <b> 
        {curDate} </b> </span> <span style={{color:"red"}}> in
         first instance</span> and win exciting awards,prizes,gifts,free coupons and many more 
-        by answering correctly. Get the latest Flipkart Quiz answers: </Card.Subtitle>
+        by answering correctly. Get the latest Flipkart Quiz answers: </b>
         <Card.Text as="h4">&nbsp; Join us: &nbsp;&nbsp; </Card.Text>
      <Card.Subtitle>  <a  href="https://t.me/FlipkartDailyQuiz" ><Button>
   <FontAwesomeIcon icon={faTelegram} size="2x"  />Join Telegram  </ Button>

@@ -16,7 +16,7 @@ const SlidingImage = () => {
     <div className="text-black">
       <MetaDecorator title={content.slidingImageTitle} description={content.slidingImageDescription} />
     <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item interval={2000}>
+      <Carousel.Item >
         <img
           className="d-block w-100"
           src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"}
@@ -25,28 +25,8 @@ const SlidingImage = () => {
         />
         
       </Carousel.Item>
-      <Carousel.Item interval={3000}>
-        <img
-          className="d-block w-100"
-          src={process.env.PUBLIC_URL + "/images/flipkartgamezone.png"}
-          height="500px"
-          alt="Flipkart daily Game Zone"
-        />
-
-        
-      </Carousel.Item >
-      <Carousel.Item interval={2000}>
-        <img
-          className="d-block w-100"
-          src={process.env.PUBLIC_URL + "/images/trivia.png"}
-          height="500px"
-           alt="Third slide"
-        />
-
-        <Carousel.Caption>
-         
-        </Carousel.Caption>
-      </Carousel.Item>
+    
+  
     </Carousel>
     </div>
   );
