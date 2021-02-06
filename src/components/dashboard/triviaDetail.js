@@ -1,6 +1,6 @@
 import React from "react";
 import MetaDecorator from "../../utils/metaDecorator";
-import TriviaQuiz from "./triviaQuiz";
+
 
 
 const TriviaDetail = () => {

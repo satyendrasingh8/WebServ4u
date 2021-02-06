@@ -9,6 +9,7 @@ import FetchComment from '../comment/fetchComment'
 import Comment from '../comment/comment'
 import FetchKyaBoltiPublic from './fetchkyaBoltiPublic';
 import GameType from '../dashboard/homeDashboard/gameType';
+import PublicDetail from './detail';
 
 
 const KyaBoltiPublic = () => {
@@ -24,6 +25,7 @@ const KyaBoltiPublic = () => {
  <HowToPlay curDate={curDate}/>
 <FetchKyaBoltiPublic curDate={curDate}/>
 <GameType />
+<PublicDetail curDate={curDate}/>
   <FetchComment />
   <Comment />
  

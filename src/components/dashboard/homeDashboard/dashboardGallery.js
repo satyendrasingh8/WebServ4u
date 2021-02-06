@@ -13,7 +13,7 @@ const DashboardGallery = () => {
         <Card border="dark" style={{maxWidth:"19rem",margin:"30px"}}>
   <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/DailyTrivia1.png"} />
   <Card.Body>
-    <Card.Title >Flipkart Daily Trivia Quiz Answers </Card.Title>
+    <Card.Title >Flipkart Trivia Today Answers </Card.Title>
   
     <Button variant="primary">Answer</Button>
   </Card.Body>
@@ -28,7 +28,7 @@ const DashboardGallery = () => {
     <Button variant="primary">Answer</Button>
   </Card.Body>
 </Card></a>
-<a href='/flipkart-kya-bolti-public-quiz'> 
+<a href='/kya-bolti-public-flipkart-answers'> 
 <Card border="dark" style={{maxWidth:"19rem",margin:"30px"}} >
   <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/2.png"} />
   <Card.Body>

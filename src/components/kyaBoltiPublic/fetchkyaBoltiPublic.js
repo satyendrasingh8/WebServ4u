@@ -54,9 +54,11 @@ class FetchKyaBoltiPublic extends Component {
 
     return(
  <div>
- <MetaDecorator title={`flipkart kya bolti public winners ${this.props.curDate}`} description=" To participate in the Flipkart Kya Bolti Public Quiz, you need to follow folllowing instructions as mention below in webserv4u.com " />
-    <MetaDecorator title={`flipkart kya bolti public Quiz answers ${this.props.curDate}`}  description="Hosted by Maniesh Paul in season 2 as well, Kya Bolti Public is a poll-based show ... The winners
+ <MetaDecorator title={`kya bolti public answer ${this.props.curDate}`} description=" To participate in the Flipkart Kya Bolti Public Quiz, you need to follow folllowing instructions as mention below in webserv4u.com " />
+    <MetaDecorator title={`kya bolti public flipkart ${this.props.curDate}`}  description="Hosted by Maniesh Paul in season 2 as well, Kya Bolti Public is a poll-based show ... The winners
      of this game show get big prizes every episode from Flipkart. " />
+       <span style={{color:"red"}}> kya bolti public flipkart answers updated at
+     { this.props.curDate} 12:05am </span>
   {currentPosts && Array.from(currentPosts).map((data)=> {
    return (
        <div> 

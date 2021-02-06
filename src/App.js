@@ -56,7 +56,7 @@ class App extends Component {
 
           <Route  path='/flipkart-trivia-today-answers' component={TriviaQuiz} />
           <Route  path='/flipkart-fake-or-not-quiz' component={FakeOrNot} />
-          <Route  path='/flipkart-kya-bolti-public-quiz' component={KyaBoltiPublic} />
+          <Route  path='/kya-bolti-public-flipkart-answers' component={KyaBoltiPublic} />
           <Route  path='/flipkart-daam-sahi-hai-quiz' component={DaamSahiHai} />
           <Route  path='/flipkart-for-your-infromation-quiz' component={FYI} />
           <Route  path='/flipkart-kaun-who-did-it-quiz' component={Kaun} />

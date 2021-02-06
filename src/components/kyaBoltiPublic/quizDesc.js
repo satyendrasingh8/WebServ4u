@@ -5,8 +5,8 @@ import MetaDecorator from "../../utils/metaDecorator"
 const QuizDescription = ({curDate}) =>{
     return (
         <div>
-              <MetaDecorator title='about flipkart kya bolti public Quiz description' 
-    description=' Here you have to get quick live updates for each Kya bolti public Quiz Answer everyday at
+              <MetaDecorator title='about kya bolti public flipkart Quiz description' 
+    description=' Here you have to get quick live updates for each Kya bolti public flipkart Quiz Answer everyday at
     12:00am.' />
      
      <Card.Text><br></br>
@@ -19,11 +19,15 @@ const QuizDescription = ({curDate}) =>{
       height={60}
       roundedCircle />
       <a href="https://www.flipkart.com/">&nbsp;<b>Flipkart</b> </a>
-      <b><i>daily <b>Kya bolti Public</b> Quiz is Back.</i>  </b>Daily <b>kya bolti public</b> Quiz is generally asks
-       General Knowledge based Questions.Flipkart <b>kya bolti public</b> Quiz is started 
+      <b><i>daily <b> Kya bolti Public </b> Quiz is Back. </i>  </b> Daily <b>kya bolti public flipkart</b>
+      answers Quiz is generally asks
+       General Knowledge based Questions.Flipkart <b> kya bolti public </b> today Quiz is started 
        <span> <b> 
        {curDate}  at 12:00Am </b> </span> and ends at  <span> <b> 
        {curDate}  at 11:59pm </b> </span> .
+       Kya Bolti Public Flipkart answers {curDate} mostly based on general knowledge.
+       By Playing kya bolti public flipkart answers {curDate} you can earn free vouchers and super 
+       coins and that can be used for shopping on the platform.
        <b><i>Webserv4u</i></b> provide these answers at {curDate} 12:05am daily.By answering them you have to
         get some relevant prize,coupons,gift or super coins  by regular participation in daily quiz.
         <b>Make sure you have to follow our official <a href="https://t.me/FlipkartDailyQuiz"><b><b>Telegram</b></b> </a> channel to get daily 

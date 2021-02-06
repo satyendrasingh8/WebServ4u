@@ -11,8 +11,8 @@ const FetchKyaBoltiPublicSummary = ({data,curDate}) => {
     return(
  <div>
    <div key={data.id} style={{marginBottom:"20px"}}>
-   <asyncMetaDecorator title={`Flipkart Kya Bolti public Answers Today ${curDate}`} url="https://webserv4u.com/flipkart-kya-bolti-public-quiz" />
-   <MetaDecorator title={`Flipkart Kya bolti public Quiz Answers Today ${curDate}`} description="flipkart kya bolti public Quiz answers are given below 
+   <asyncMetaDecorator title={`kya bolti public flipkart answers ${curDate}`} url="https://webserv4u.com/flipkart-kya-bolti-public-quiz" />
+   <MetaDecorator title={`kya bolti public flipkart answers ${curDate}`} description="kya bolti public flipkart answers answers are given below 
    please notedown and answer them correctly " />
       <Card>
    <b ><Card.Title style={{fontSize:28,paddingTop:'30px'}}><div style={{textShadow:"1px 1px black" }}> {data.quizType}</div>
