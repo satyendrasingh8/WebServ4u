@@ -52,7 +52,7 @@ const QuizHead = ({curDate}) => {
          description="today flipkart trivia answers"/>
        <a href="https://webserv4u.com/flipkart-trivia-today-answers">
        today flipkart trivia answers  </a>  </b> <br></br><br></br>
-         Join us: &nbsp;&nbsp; </Card.Text>
+         Join us: &nbsp;&nbsp; </Card.Text><br></br>
      <Card.Subtitle>  <a  href="https://t.me/FlipkartDailyQuiz" ><Button>
   <FontAwesomeIcon icon={faTelegram} size="2x"  />Join Telegram  </ Button>
 </a><br></br><br></br>

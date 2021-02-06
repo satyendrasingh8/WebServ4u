@@ -16,7 +16,7 @@ const QuizHead = ({curDate}) => {
     return(
   <div>
     
-    <MetaDecorator title='kya bolti public flipkart answers' description='' />
+    <MetaDecorator title='kya bolti public flipkart answers' description='get daily kya bolti public flipkart answers at webserv4u.com' />
    
     <Card.Header as="h4">Welcome to <a href="http://webserv4u.com/flipkart-trivia-today-answers">
         WebServ4u</a>, If you are looking for
@@ -55,7 +55,7 @@ const QuizHead = ({curDate}) => {
          description="kya bolti public today answer"/>
        <a href="https://webserv4u.com/kya-bolti-public-flipkart-answers">
        kya bolti public today answer  </a>  </b> <br></br><br></br>
-         Join us: &nbsp;&nbsp; </Card.Text>
+         Join us: &nbsp;&nbsp; </Card.Text><br></br>
      <Card.Subtitle>  <a  href="https://t.me/FlipkartDailyQuiz" ><Button>
   <FontAwesomeIcon icon={faTelegram} size="2x"  />Join Telegram  </ Button>
 </a><br></br><br></br>

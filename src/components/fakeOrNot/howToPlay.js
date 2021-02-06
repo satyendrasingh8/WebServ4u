@@ -8,7 +8,7 @@ const HowToPlay = ({curDate}) => {
     <Container fluid>
     <MetaDecorator title='how to play flipkart Fake or Not Quiz' 
     description='Here are all the steps from beginning to end to play Flipkart daily fake or not Quiz' />
-    <Card.Title as="h3">How to play Flipkart <b>Fake or Not?</b> Quiz </Card.Title>
+    <Card.Title as="h3">How to play Flipkart <b>Fake or Not?</b> Quiz today </Card.Title>
 <Card.Body>
 
 <Card.Text>1. first of all Download or Open the <b>Flipkart</b> App in your android phone</Card.Text>

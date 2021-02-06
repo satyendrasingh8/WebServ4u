@@ -9,6 +9,8 @@ import FetchComment from '../comment/fetchComment'
 import Comment from '../comment/comment'
 import FetchFakeOrNot from './fetchFakeOrNot';
 import GameType from '../dashboard/homeDashboard/gameType';
+import MetaDecorator from '../../utils/metaDecorator';
+import FakeDetail from './fakeDetail';
 
 const FakeOrNot = () => {
 
@@ -16,6 +18,8 @@ const FakeOrNot = () => {
  
     return(
     <div>
+      <MetaDecorator title={`flipkart fake or not today answer ${curDate}`} description='Flipkart Fake or Not today
+ Answers... Dear viewers Fake or Not Fake is live now.You will get here fastest correct answers with the trust of webserv4u.com' />
    <Card >
   <QuizHead curDate={curDate} />
   <SlidingImage />
@@ -23,6 +27,7 @@ const FakeOrNot = () => {
  <HowToPlay curDate={curDate} />
 <FetchFakeOrNot curDate={curDate}  />
 <GameType />
+<FakeDetail curDate={curDate}/>
   <FetchComment />
   <Comment />
  

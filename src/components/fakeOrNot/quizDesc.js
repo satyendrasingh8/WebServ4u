@@ -6,11 +6,11 @@ import MetaDecorator from '../../utils/metaDecorator';
 const QuizDescription = ({curDate}) =>{
     return (
         <div>
-                         <MetaDecorator title='about flipkart Fake or Not Quiz description' 
-    description=' Here you have to get quick live updates for each FYI Quiz Question everyday at
+                         <MetaDecorator title='flipkart fake or not today answer' 
+    description=' Here you have to get quick live updates for each flipkart fake or not today answer everyday at
     12:00am.' />
             <Card.Text><br></br>
-      Here you have to get quick live updates for each <b>Fake or Not </b> Quiz Question everyday &nbsp;
+      Here you have to get quick live updates for each flipkart <b> Fake or Not </b> Quiz Question everyday &nbsp;
       <span> 
        { curDate}  at 12:05Am  </span>.
       By answering these Quiz Questions you can win many gift vouchers,coupons,gifts,super coins etc.
@@ -19,8 +19,8 @@ const QuizDescription = ({curDate}) =>{
       height={60}
       roundedCircle />
       <a href="https://www.flipkart.com/">&nbsp;<b>Flipkart</b> </a>
-      <b><i>daily <b>Fake or Not </b> Quiz is Back.</i>  </b>Daily <b>Fake or Not </b> Quiz is generally asks
-       General Knowledge based Questions.Flipkart <b>Daily Fake or Not </b> Quiz is started 
+      <b><i>daily flipkart <b>Fake or Not </b> Quiz is Back.</i>  </b>flipkart <b>Fake or Not </b> today answer is generally asks
+       General Knowledge based Questions.Flipkart <b>Daily Fake or Not </b> today Quiz is started 
        <span> <b> 
        {curDate}  at 12:00Am </b> </span> and ends at  <span> <b> 
        {curDate}  at 11:59pm </b> </span> .
