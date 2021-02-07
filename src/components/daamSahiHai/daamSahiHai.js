@@ -9,7 +9,7 @@ import FetchComment from '../comment/fetchComment'
 import Comment from '../comment/comment'
 import FetchDaamSahiHai from './fetchDaamSahiHai';
 import GameType from '../dashboard/homeDashboard/gameType';
-
+import DaamDetail from './daamDetail'
 
 const DaamSahiHai = () => {
 
@@ -24,6 +24,7 @@ const DaamSahiHai = () => {
  <HowToPlay curDate={curDate} />
 <FetchDaamSahiHai curDate={curDate} />
 <GameType />
+<DaamDetail />
   <FetchComment />
   <Comment />
  

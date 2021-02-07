@@ -17,7 +17,7 @@ const QuizHead = ({curDate}) => {
   <div>
     <MetaDecorator title={header.headerTitle} description={header.headerDescription} />
    
-      <Card.Header as="h4">Welcome to <a href="http://webserv4u.com/flipkart-trivia-today-answers">
+      <Card.Header as="h4">Welcome to <a href="/">
         WebServ4u</a>, If you are looking for
        Today<b style={{color:"green"}}> flipkart Trivia</b> Quiz-
     <span style={{color:"red"}}> {curDate} </span> they are at right place. Answers these Quiz Questions to get Coupon Discount,

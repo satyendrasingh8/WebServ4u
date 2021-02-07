@@ -9,6 +9,8 @@ import FetchComment from '../comment/fetchComment'
 import Comment from '../comment/comment'
 import FetchKaunWhoDidIt from './fetchKaun';
 import GameType from '../dashboard/homeDashboard/gameType';
+import MetaDecorator from '../../utils/metaDecorator';
+import KaunDetail from './kaunDetail';
 
 
 
@@ -18,6 +20,9 @@ const Kaun = () => {
  
     return(
     <div>
+        <MetaDecorator title={`flipkart kaun who did it quiz answers ${curDate}`} 
+    description='Here are all the steps from beginning to end to play Flipkart daily 
+    kaun? who did it Quiz' />
    <Card >
   <QuizHead curDate={curDate} />
   <SlidingImage />
@@ -25,6 +30,7 @@ const Kaun = () => {
  <HowToPlay curDate={curDate} />
 <FetchKaunWhoDidIt curDate={curDate} />
 <GameType />
+<KaunDetail curDate={curDate} />
   <FetchComment />
   <Comment />
  

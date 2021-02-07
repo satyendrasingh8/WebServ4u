@@ -18,7 +18,7 @@ const QuizHead = ({curDate}) => {
     
     <MetaDecorator title='flipkart fake or not fake description' description='flipkart fake or not today answer' />
    
-    <Card.Header as="h4">Welcome to <a href="http://webserv4u.com/flipkart-trivia-today-answers">
+    <Card.Header as="h4">Welcome to <a href="/">
         WebServ4u</a>, If you are looking for
        Today<u style={{color:"green"}}> flipkart fake or not today answer</u> -
     <span style={{color:"red"}}> {curDate} </span> they are at right place. Answers these Quiz Questions 
@@ -28,7 +28,7 @@ const QuizHead = ({curDate}) => {
     flipkart today fake or not answer
  {curDate} Quiz </p>
        </Card.Header><br></br>
-       <b style={{padding:'16px'}}>get flipkart <b>fake or not c</b> Quiz answers <span> <b> 
+       <b style={{padding:'16px'}}>get flipkart <b>fake or not </b> Quiz answers <span> <b> 
        {curDate} </b> </span> <span style={{color:"red"}}> in
         first instance</span> and win exciting awards,prizes,gifts,free coupons and many more 
         by answering correctly. Get the latest Flipkart Quiz answers: </b>

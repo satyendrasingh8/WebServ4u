@@ -16,26 +16,41 @@ const QuizHead = ({curDate}) => {
     return(
   <div>
     
-    <MetaDecorator title='' description='' />
-   
-   <Card.Header as="h3"> Get Daily Flipkart <b style={{color:"red"}}>Kaun?Who did it</b> answers
- <span style={{color:"red"}}> {curDate}</span>.Answers these Quiz Questions to get Coupon Discount,
- amazing Gifts and earn Flipkart super coins.
-    </Card.Header><br></br>
-    <b style={{padding:'15px'}}>get flipkart <b>Kaun Who did it</b> Quiz answers <span> <b> 
-    {curDate} </b> </span> <span style={{color:"red"}}> in
-     first instance</span> and win exciting awards,prizes,gifts,free coupons and many more 
-     by answering correctly. Get the latest Flipkart Quiz answers: </b>
-     <Card.Text as="h4">&nbsp; Join us: &nbsp;&nbsp; </Card.Text>
-  <Card.Subtitle>  <a  href="https://t.me/FlipkartDailyQuiz" ><Button>
-<FontAwesomeIcon icon={faTelegram} size="2x"  />Join Telegram  </ Button>
+    <Card.Header as="h4">Welcome to <a href="/">
+       WebServ4u</a>, If you are looking for
+      Today<u style={{color:"green"}}> flipkart kaun who did it quiz answers </u> -
+   <span style={{color:"red"}}> {curDate} </span> they are at right place. Answers these Quiz Questions 
+   to get Coupon Discount,
+   amazing Gifts and earn Flipkart super coins.
+   <p >flipkart kaun who did it quiz answers | 
+   flipkart kaun who did it answers
+{curDate} Quiz </p>
+      </Card.Header><br></br>
+      <b style={{padding:'16px'}}>get flipkart <b> kaun who did it </b> Quiz answers <span> <b> 
+      {curDate} </b> </span> <span style={{color:"red"}}> in
+       first instance</span> and win exciting awards,prizes,gifts,free coupons and many more 
+       by answering correctly. Get the latest Flipkart Quiz answers: </b>
+       <Card.Text as="h6">&nbsp;<br></br>
+       <b> <a href="https://webserv4u.com/flipkart-kaun-who-did-it-quiz-answers">
+       flipkart kaun who did it quiz answers </a> |
+      
+        <a href="https://webserv4u.com/flipkart-kaun-who-did-it-quiz-answers">
+        sabse funny kaun</a>  |  <a href="https://webserv4u.com/flipkart-kaun-who-did-it-quiz-answers">
+        flipkart kaun who did it answers </a> | 
+      
+        <a href="https://webserv4u.com/flipkart-kaun-who-did-it-quiz-answers">
+        sabse funny kaun flipkart today answer </a>
+         </b> <br></br><br></br>
+        Join us: &nbsp;&nbsp; </Card.Text><br></br>
+    <Card.Subtitle>  <a  href="https://t.me/FlipkartDailyQuiz" ><Button>
+ <FontAwesomeIcon icon={faTelegram} size="2x"  />Join Telegram  </ Button>
 </a><br></br><br></br>
 <a  href="https://github.com/satyendrasingh8" ><Button variant="dark">
-<FontAwesomeIcon icon={faGithub} size="2x"  /><b> Follow on Github  </b> </ Button>
+ <FontAwesomeIcon icon={faGithub} size="2x"  /><b> Follow on Github  </b> </ Button>
 </a><br></br>
 </Card.Subtitle>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<Card.Link href="/"><b><i>WebServ4u.com</i> </b></Card.Link>
+    
   
      
   </div>

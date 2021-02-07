@@ -5,11 +5,11 @@ import MetaDecorator from "../../utils/metaDecorator"
 const QuizDescription = ({curDate}) =>{
     return (
         <div>
-              <MetaDecorator title='about flipkart  daam sahi hai Quiz description' 
+              <MetaDecorator title='about flipkart play daam sahi hai Quiz description' 
     description=' Here you have to get quick live updates for each daam sahi hai Quiz Answer everyday at
     12:00am.' />
 <Card.Text><br></br>
-      Here you have to get quick live updates for each <b>Daam Sahi Hai</b> Quiz Question everyday &nbsp;
+      Here you have to get quick live updates for each flipkart play <b> Daam Sahi Hai </b> {curDate}  Quiz Question everyday &nbsp;
       <span> 
        { curDate}  at 12:05Am  </span>.
       By answering these Quiz Questions you can win many gift vouchers,coupons,gifts,super coins etc.
@@ -18,7 +18,7 @@ const QuizDescription = ({curDate}) =>{
       height={60}
       roundedCircle />
       <a href="https://www.flipkart.com/">&nbsp;<b>Flipkart</b> </a>
-      <b><i>daily <b>Daam Sahi Hai</b> Quiz is Back.</i>  </b>Daily <b>Daam Sahi Hai</b> Quiz is generally asks
+      <b><i>flipkart play <b>Daam Sahi Hai</b> Quiz is Back.</i>  </b>Daily <b>Daam Sahi Hai</b> Quiz is generally asks
        General Knowledge based Questions.Flipkart <b>Daily Daam Sahi Hai</b> Quiz is started 
        <span> <b> 
        {curDate}  at 12:00Am </b> </span> and ends at  <span> <b> 

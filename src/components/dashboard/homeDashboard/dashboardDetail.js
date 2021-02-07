@@ -18,6 +18,8 @@ const DashboardDetail = ({curDate}) => {
 3. The Flipkart daily quiz is only available on the mobile app and not through the web version of the platform<br></br> 
 4. The contest will run every day<br></br>
 5. Winners are announced within 15 days from the date of participation and the same can be viewed under the Gems/Rewards section in the app.
+  <br></br><br></br>
+  
     </div>
   );
 }

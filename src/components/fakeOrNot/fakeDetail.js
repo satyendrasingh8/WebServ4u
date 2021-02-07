@@ -79,7 +79,7 @@ News anchor, Mythika Dutt. <br></br><br></br>
       and you can search Fake or Not Skyneel on Google for find us.</p>
       <h4>How to win Flipkart Fake or Not quiz? </h4>
       <p>To win the Flipkart Fake or Not Fake Quiz, you are required to give correct answers of
-           all five question and claim your Prize as a necessary step.
+           all three question and claim your Prize as a necessary step.
            The reward will be disbursed directly to the wallet and super coin section. </p>
            <h4> What is the rewards or prizes of Fake or Not Fake Quiz? </h4>
            <p> Fake or Not quiz prizes are ₹1,000 Gift Voucher, ₹50 Gift Voucher and SuperCoins and many more. </p>
