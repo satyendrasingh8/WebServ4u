@@ -14,7 +14,7 @@ const SlidingImage = () => {
 
   return (
     <div className="text-black">
-      <MetaDecorator title={content.slidingImageTitle} description={content.slidingImageDescription} />
+     
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item >
         <img

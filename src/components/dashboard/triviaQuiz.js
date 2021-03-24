@@ -18,11 +18,10 @@ const curDate = moment(new Date()).format(' Do MMM YYYY');
  
     return(
     <div>
+       <MetaDecorator title="flipkart trivia today answers" description="Get flipkart trivia today answers updated 
+       at 12:00 am to win exciting awards,prizes,gifts,free coupons and many more by answering correctly." />
    <Card >
-   <MetaDecorator title="flipkart trivia today answers" description="webserv4u.com provide flipkart trivia today answers 
-    in first instance by playing these quiz answers correctly you must win awesome prize." />
-   <MetaDecorator title="today's flipkart trivia questions and answers" description="webserv4u.com provide today flipkart trivia questions and answers 
-    in first instance by playing these quiz answers correctly you must win awesome prize." />
+  
   <QuizHead curDate={curDate} />
   <SlidingImage />
   <QuizDescription curDate={curDate} />

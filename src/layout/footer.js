@@ -100,19 +100,19 @@ function Footer() {
   <FontAwesomeIcon icon={faYoutube} size="2x" /><b> Youtube  </b> 
 </a>          </li><br></br>
           <li>
-          <a href=""
+          <a href="https://www.facebook.com/profile.php?id=100006811938161"
   className="facebook social">
   <FontAwesomeIcon icon={faFacebook} size="2x" /><b> Facebook  </b> 
 </a>
           </li><br></br>
           <li>
-          <a href="" className="twitter social">
+          <a href="https://twitter.com/satyend51668580" className="twitter social">
   <FontAwesomeIcon icon={faTwitter} size="2x" /><b> Twitter  </b> 
 </a>
           </li><br></br>
           
           <li>
-          <a href=""
+          <a href="https://www.instagram.com/webserv4u/"
   className="instagram social">
   <FontAwesomeIcon icon={faInstagram} size="2x" /><b> Instagram </b> 
 </a>

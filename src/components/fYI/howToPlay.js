@@ -1,14 +1,12 @@
 import React from "react";
 import { Card, Container } from "react-bootstrap";
-import MetaDecorator from "../../utils/metaDecorator"
+
 
 const HowToPlay = ({curDate}) => {
   return (
     <div >
     <Container fluid>
-    <MetaDecorator title='how to play flipkart FYI (For Your Information) Quiz' 
-    description='Here are all the steps from beginning to end to play Flipkart daily 
-    FYI(For Your Information) Quiz' />
+    
     <Card.Title as="h3">How to play Flipkart<b>FYI(For Your Information)</b>  Daily  Quiz ? </Card.Title>
 <Card.Body>
 

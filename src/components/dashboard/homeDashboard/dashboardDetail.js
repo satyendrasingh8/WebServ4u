@@ -19,6 +19,11 @@ const DashboardDetail = ({curDate}) => {
 4. The contest will run every day<br></br>
 5. Winners are announced within 15 days from the date of participation and the same can be viewed under the Gems/Rewards section in the app.
   <br></br><br></br>
+  <p>
+    More: <a href="https://blog.webserv4u.com/">blog.webserv4u.com</a> <br/>
+   
+    share: <a href="https://happyholi.webserv4u.com/"> happyholi wishes </a>
+  </p>
   
     </div>
   );

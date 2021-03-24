@@ -1,5 +1,4 @@
 import React from "react";
-import MetaDecorator from "../../utils/metaDecorator";
 
 
 
@@ -33,18 +32,14 @@ Date: {curDate}
 
 
  <p>&nbsp;<br></br>
- <MetaDecorator title={`flipkart daam sahi hai today answer  ${curDate}`} description='flipkart daam sahi hai today answer
-       Live Now. If You Are Looking For Fast And Right Flipkart Quiz Answers Here Are All 5 
-        Correct Answers To The Quiz.' />
+
         <b> <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
         flipkart daam sahi hai today answer </a> |
-        <MetaDecorator title={`flipkart play daam sahi hai ${curDate}`}
-         description='flipkart play daam sahi hai'/>
+       
          <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
          flipkart play daam sahi hai </a>  |  <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
          flipkart daam sahi hai answer </a> | 
-          <MetaDecorator title={`flipkart daam sahi hai today answers ${curDate}`}
-         description="flipkart daam sahi hai answers"/>
+          
          <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
          flipkart daam sahi hai today answers </a> | 
         </b> <br></br><br></br>

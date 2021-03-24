@@ -20,7 +20,7 @@ const FYI = () => {
  
     return(
     <div>
-       <MetaDecorator title={`flipkart FYI For Your Information quiz answers ${curDate}`} description='flipkart FYI For Your Information quiz answers' />
+       <MetaDecorator title={`flipkart FYI For Your Information quiz answers ${curDate}`} description='flipkart today FYI For Your Information quiz answers' />
    <Card >
   <QuizHead curDate={curDate} />
   <SlidingImage />

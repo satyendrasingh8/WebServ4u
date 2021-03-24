@@ -7,7 +7,7 @@ import {
   faGithub
 
 } from "@fortawesome/free-brands-svg-icons";
-import MetaDecorator from '../../utils/metaDecorator';
+
 
 
 const QuizHead = ({curDate}) => {

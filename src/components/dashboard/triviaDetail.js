@@ -1,5 +1,5 @@
 import React from "react";
-import MetaDecorator from "../../utils/metaDecorator";
+
 
 
 
@@ -25,22 +25,18 @@ You can check the gems and rewards earned by tapping on the top right corner sec
  using supercoins.
  <p> <a href="http://webserv4u.com/flipkart-trivia-today-answers">
         flipkart trivia today </a> |
-        <MetaDecorator title={`flipkart trivia today answer `}
-         description='flipkart trivia today answer'/>
+       
          <a href="http://webserv4u.com/flipkart-trivia-today-answers">
           flipkart trivia today answer </a>  |  
           <a href="http://webserv4u.com/flipkart-trivia-today-answers">
           flipkart trivia questions and answers </a> | 
-          <MetaDecorator title={`today's flipkart trivia questions and answers `}
-         description="today's flipkart trivia questions and answers"/>
+         
          <a href="http://webserv4u.com/flipkart-trivia-today-answers">
          today's flipkart trivia questions and answers </a> | 
-         <MetaDecorator title={`today flipkart trivia quiz answers `}
-         description="today's flipkart trivia questions and answers"/>
+        
          <a href="http://webserv4u.com/flipkart-trivia-today-answers">
          today flipkart trivia quiz answers </a>  | 
-         <MetaDecorator title={` today flipkart trivia answers`}
-         description="today flipkart trivia answers"/>
+        
        <a href="http://webserv4u.com/flipkart-trivia-today-answers">
        today flipkart trivia answers  </a></p>
     </p>

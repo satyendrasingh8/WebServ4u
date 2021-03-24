@@ -1,16 +1,11 @@
 import React from 'react';
 import { Card, Image } from 'react-bootstrap';
-import MetaDecorator from "../../utils/metaDecorator"
+
 
 const QuizDescription = ({curDate}) =>{
     return (
         <div>
-             <MetaDecorator title='about flipkart FYI Quiz description' 
-    description=' Here you have to get quick live updates for each FYI Quiz Question everyday at
-    12:00am.' />
-      <MetaDecorator title='about flipkart FYI(For Your Information) Quiz description' 
-    description=' Here you have to get quick live updates for each FYI(For Your Information) Quiz Question everyday at
-    12:00am.' />
+            
        <Card.Text><br></br>
       Here you have to get quick live updates for each <b>FYI</b> Quiz Question everyday &nbsp;
       <span> 

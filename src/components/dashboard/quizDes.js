@@ -1,13 +1,12 @@
 import React from 'react';
 import { Card, Image } from 'react-bootstrap';
-import MetaDecorator from "../../utils/metaDecorator"
 const content = require('../../dummyData/home.json')
 
 
 const QuizDescription = ({curDate}) =>{
     return (
         <div>
-            <MetaDecorator title={content.quizDescriptionTitle} description={content.quizDescriptionDescription} />
+           
 <Card.Text><br></br>
       Here you have to get quick live updates for each flipkart <b>Trivia</b> Quiz Question and answers everyday &nbsp;
       <span> 

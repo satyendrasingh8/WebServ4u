@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Card, Col, Container, ListGroup, Row } from 'react-bootstrap';
-import MetaDecorator from '../../../utils/metaDecorator';
+
 
 
 const GameType = () => {

@@ -1,13 +1,12 @@
 import React from "react";
 import { Card, Container } from "react-bootstrap";
-import MetaDecorator from "../../utils/metaDecorator"
 const content = require('../../dummyData/home.json')
 
 const HowToPlay = ({curDate}) => {
   return (
     <div >
     <Container fluid>
-   <MetaDecorator title={content.howToPlayTitle} description={content.howToPlayDescription} />
+  
     <Card.Title as="h3">How to play today's flipkart <b>Trivia</b> questions and answers? </Card.Title>
 <Card.Body>
 
@@ -23,7 +22,7 @@ const HowToPlay = ({curDate}) => {
  <Card.Text>6. Answers all <b>Five</b> Questions correctly and win your lucky prize. </Card.Text>
  <Card.Text>7. congratulations!,start playing. </Card.Text>
  <br></br>
- <MetaDecorator title="about flipkart trivia quiz" description="here we mention about flipkart trivia quiz,quiz prizes,date and based on general knowledge" />
+ 
  <h4 style={{textShadow:"1px 1px black" }}> About flipkart trivia Quiz- </h4> <br></br>
  <Card.Text>Flipkart Trivia today answers is based on general knowledge and offers customers the 
    opportunity to win exciting prizes.

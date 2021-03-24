@@ -21,8 +21,7 @@ const Kaun = () => {
     return(
     <div>
         <MetaDecorator title={`flipkart kaun who did it quiz answers ${curDate}`} 
-    description='Here are all the steps from beginning to end to play Flipkart daily 
-    kaun? who did it Quiz' />
+    description='today flipkart kaun who did it quiz answers to get Coupon Discount, amazing Gifts and earn Flipkart super coins.' />
    <Card >
   <QuizHead curDate={curDate} />
   <SlidingImage />

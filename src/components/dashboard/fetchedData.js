@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import FetchedDataSummary from './fetchedDataSummary';
 import firebase from '../../config/firebase'
 import QuizPagination from '../pagination/quizPagination';
-import MetaDecorator from "../../utils/metaDecorator"
 const content = require('../../dummyData/home.json')
 
 class FetchedQuiz extends Component {
@@ -54,10 +53,7 @@ class FetchedQuiz extends Component {
     return(
  <div>
   
-   <MetaDecorator title={`today flipkart daily trivia answers ${this.props.curDate}`}
-    description=" Here all right
-   today flipkart Daily Trivia answers 
-    are given. Start Playing Quiz by clicking on Start Quiz Button." />
+  
   <span style={{color:"red"}}> flipkart trivia today answer updated at
      { this.props.curDate} 12:05am </span>
   {currentPosts && Array.from(currentPosts).map((data)=> {
@@ -69,9 +65,7 @@ class FetchedQuiz extends Component {
    )
   }) }
    <QuizPagination postsPerPage={postsPerPage} totalPosts={questions.length} paginate={paginate} nextPage={nextPage} prevPage={prevPage} />
-   <MetaDecorator title="flipkart trivia questions and answers" description="flipkart trivia questions and answers are
-    given in webserv4u.com. Win free vouchers and 
-   super coins by answering all five questions. Get the latest Flipkart quiz answers" />
+   
    
  </div>
     );

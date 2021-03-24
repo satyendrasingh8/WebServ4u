@@ -7,7 +7,7 @@ import {
   faGithub
 
 } from "@fortawesome/free-brands-svg-icons";
-import MetaDecorator from '../../utils/metaDecorator';
+
 
 
 const QuizHead = ({curDate}) => {
@@ -16,8 +16,7 @@ const QuizHead = ({curDate}) => {
     return(
   <div>
     
-    <MetaDecorator title='flipkart play Daam Sahi Hai' description='flipkart play daam sahi hai' />
-   
+    
     <Card.Header as="h4">Welcome to <a href="/">
         WebServ4u</a>, If you are looking for
        Today<u style={{color:"green"}}> flipkart play Daam Sahi Hai</u> -
@@ -33,15 +32,24 @@ const QuizHead = ({curDate}) => {
         first instance</span> and win exciting awards,prizes,gifts,free coupons and many more 
         by answering correctly. Get the latest Flipkart Quiz answers: </b>
         <Card.Text as="h6">&nbsp;<br></br>
-        <MetaDecorator title={`flipkart play Daam Sahi Hai ${curDate}`} description='flipkart play Daam Sahi Hai
-       Live Now. If You Are Looking For Fast And Right Flipkart Quiz Answers Here Are All 5 
-        Correct Answers To The Quiz.' />
-        <b> <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
-        flipkart play Daam Sahi Hai ({curDate}) </a> |
-        <MetaDecorator title={`flipkart daam sahi hai today answer ${curDate}`}
-         description='flipkart daam sahi hai today answer'/>
-         <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
-         flipkart daam sahi hai today answer {curDate} </a>
+        
+        <b>  <a href='/flipkart-trivia-today-answers'>  Flipkart Trivia Today Answers</a> |
+ 
+ 
+ <a href='/flipkart-fake-or-not-today-answer'> Flipkart Fake or Not today answers</a> |
+ 
+ 
+  <a href="/kya-bolti-public-flipkart-answers">  Kya Bolti Public Flipkart Answers</a> |
+ 
+ 
+  <a href="/flipkart-play-daam-sahi-hai"> Flipkart Play Daam Sahi Hai</a> |
+ 
+ 
+  <a href="/flipkart-fyi-for-your-information-quiz-answers">flipkart FYI For Your Information quiz answers</a>
+  |
+ 
+  <a href='/flipkart-kaun-who-did-it-quiz-answers'>   flipkart kaun who did it quiz answers</a>
+ 
       </b> <br></br><br></br>
          Join us: &nbsp;&nbsp; </Card.Text><br></br>
      <Card.Subtitle>  <a  href="https://t.me/FlipkartDailyQuiz" ><Button>

@@ -60,13 +60,18 @@ experiences, and real-life stories . <b>Laughter</b> is always <b>Welcome</b>".<
 <br></br>
 <br></br><br></br>
 <h4 style={{textShadow:"1px 1px black" }}> About me</h4>
-<p style={{textShadow:".5px .5px black" }}> Hi! I'm <b>Satyendra</b>,  My father's name is Mr. <b>Ganesh Singh</b>, from
+<p style={{textShadow:".5px .5px black" }}> Hi! I'm <b>Satyendra</b>, from
  Chitrakoot,UttarPradesh India.
   I'm currently pursuing Bachelor of Technology from <b>Computer
      Science and Enginnering </b> from JK institue of applied physics and Technology university of
      allahabad, Prayagraj UttarPradesh. 
   I'm a passionate <b> Developer</b> in <b>Web</b> as well as in <b>Mobile App </b>. and crazy about 
   exploring new technology. </p>
+  <p>Join with us to become <a href="https://blog.webserv4u.com/">masters in computer science specializations </a>
+  &nbsp; <a href="https://www.quora.com/profile/Satyendra-Singh-1913">Quora</a> &nbsp;
+   <a href="https://satyendrasingh8.medium.com/"> medium.com</a>&nbsp; 
+   <a href="https://in.pinterest.com/webserv4u/_created/"> pinterest.com</a>
+  </p>
   <p style={{fontFamily:"courier",
     textIndent:"10px"}}> This is basically a blogging website in which we will provide answers of each Quiz that 
     will be organising by Flipkart Game Session.</p>
@@ -92,7 +97,8 @@ experiences, and real-life stories . <b>Laughter</b> is always <b>Welcome</b>".<
   }}>
       " A collaborative explosion of creative fueled by a community of amazing
       Developers and designers. So come be our friend and 
-      see if we mean it." 
+      see if we mean it.
+      <a href="https://blog.webserv4u.com/"> blog.webserv4u.com </a>" 
       
       </div>
     </Card.Text>
@@ -116,7 +122,7 @@ experiences, and real-life stories . <b>Laughter</b> is always <b>Welcome</b>".<
   }}>
       " Complete IT solutions Websites | Mobile Apps 
       | College Projects Visit my official website 
-      <a href="https://mywebians.com"> MyWebians.com </a>
+      MyWebians.com 
       "</div>
     </Card.Text>
     

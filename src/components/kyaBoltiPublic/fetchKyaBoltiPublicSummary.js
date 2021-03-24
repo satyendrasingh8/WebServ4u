@@ -1,7 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import asyncMetaDecorator from '../../utils/asyncMetaDecorator';
-import MetaDecorator from '../../utils/metaDecorator';
+
 
 
 
@@ -11,9 +10,7 @@ const FetchKyaBoltiPublicSummary = ({data,curDate}) => {
     return(
  <div>
    <div key={data.id} style={{marginBottom:"20px"}}>
-   <asyncMetaDecorator title={`kya bolti public flipkart answers ${curDate}`} url="https://webserv4u.com/flipkart-kya-bolti-public-quiz" />
-   <MetaDecorator title={`kya bolti public flipkart answers ${curDate}`} description="kya bolti public flipkart answers answers are given below 
-   please notedown and answer them correctly " />
+  
       <Card>
    <b ><Card.Title style={{fontSize:28,paddingTop:'30px'}}><div style={{textShadow:"1px 1px black" }}> {data.quizType}</div>
        </Card.Title> </b>

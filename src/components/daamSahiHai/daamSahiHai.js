@@ -10,6 +10,7 @@ import Comment from '../comment/comment'
 import FetchDaamSahiHai from './fetchDaamSahiHai';
 import GameType from '../dashboard/homeDashboard/gameType';
 import DaamDetail from './daamDetail'
+import MetaDecorator from '../../utils/metaDecorator';
 
 const DaamSahiHai = () => {
 
@@ -17,6 +18,9 @@ const DaamSahiHai = () => {
  
     return(
     <div>
+          <MetaDecorator title={`flipkart play daam sahi hai  ${curDate}`}
+     description=' Flipkart play Daam Sahi  Hai Quiz answers : play and win OPPO A11K smartphone, 
+     supercoins, and more - Quiz - webserv4u.com Daily.' />
    <Card >
   <QuizHead curDate={curDate} />
   <SlidingImage />

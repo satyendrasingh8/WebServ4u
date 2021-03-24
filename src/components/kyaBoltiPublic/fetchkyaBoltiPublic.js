@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import firebase from '../../config/firebase'
-import MetaDecorator from '../../utils/metaDecorator';
 import QuizPagination from '../pagination/quizPagination';
 import FetchKyaBoltiPublicSummary from './fetchKyaBoltiPublicSummary';
 
@@ -54,9 +53,7 @@ class FetchKyaBoltiPublic extends Component {
 
     return(
  <div>
- <MetaDecorator title={`kya bolti public answer ${this.props.curDate}`} description=" To participate in the Flipkart Kya Bolti Public Quiz, you need to follow folllowing instructions as mention below in webserv4u.com " />
-    <MetaDecorator title={`kya bolti public flipkart ${this.props.curDate}`}  description="Hosted by Maniesh Paul in season 2 as well, Kya Bolti Public is a poll-based show ... The winners
-     of this game show get big prizes every episode from Flipkart. " />
+ 
        <span style={{color:"red"}}> kya bolti public flipkart answers updated at
      { this.props.curDate} 12:05am </span>
   {currentPosts && Array.from(currentPosts).map((data)=> {

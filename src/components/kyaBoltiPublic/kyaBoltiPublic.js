@@ -10,6 +10,7 @@ import Comment from '../comment/comment'
 import FetchKyaBoltiPublic from './fetchkyaBoltiPublic';
 import GameType from '../dashboard/homeDashboard/gameType';
 import PublicDetail from './detail';
+import MetaDecorator from '../../utils/metaDecorator';
 
 
 const KyaBoltiPublic = () => {
@@ -18,6 +19,9 @@ const KyaBoltiPublic = () => {
  
     return(
     <div>
+       <MetaDecorator title={`kya bolti public flipkart answers  ${curDate}`} description='kya bolti public flipkart answers
+       Live Now. If You Are Looking For Fast And Right Flipkart Quiz Answers Here Are All 5 
+        Correct Answers To The Quiz.' />
    <Card >
   <QuizHead curDate={curDate}/>
   <SlidingImage />

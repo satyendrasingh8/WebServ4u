@@ -1,5 +1,5 @@
 import React from "react";
-import MetaDecorator from "../../utils/metaDecorator";
+
 
 
 
@@ -20,26 +20,20 @@ const PublicDetail = ({curDate}) => {
  6. Finally, click on “Unlock Reward” if your five answers are correct
 
  <p>&nbsp;<br></br>
-        <MetaDecorator title={`kya bolti public today answer  ${curDate}`} description='kya bolti public today answer
-       Live Now. If You Are Looking For Fast And Right Flipkart Quiz Answers Here Are All 5 
-        Correct Answers To The Quiz.' />
+    
         <b> <a href="https://webserv4u.com/kya-bolti-public-flipkart-answers">
         kya bolti public flipkart answers </a> |
-        <MetaDecorator title={`kya bolti public answer ${curDate}`}
-         description='kya bolti public answer'/>
+      
          <a href="https://webserv4u.com/kya-bolti-public-flipkart-answers">
          kya bolti public answer </a>  |  <a href="https://webserv4u.com/kya-bolti-public-flipkart-answers">
          kya bolti public flipkart </a> | 
-          <MetaDecorator title={`kya bolti public season 2 ${curDate}`}
-         description="kya bolti public season 2 answers"/>
+  
          <a href="https://webserv4u.com/kya-bolti-public-flipkart-answers">
          kya bolti public season 2 </a> | 
-         <MetaDecorator title={`flipkart kya bolti public today ${curDate}`}
-         description="flipkart kya bolti public today questions and answers"/>
+       
          <a href="https://webserv4u.com/kya-bolti-public-flipkart-answers">
          flipkart kya bolti public today </a>  | 
-         <MetaDecorator title={` kya bolti public today answer ${curDate}`}
-         description="kya bolti public today answer"/>
+ 
        <a href="https://webserv4u.com/kya-bolti-public-flipkart-answers">
        kya bolti public today answer  </a>  </b> <br></br><br></br>
          &nbsp;&nbsp; </p>

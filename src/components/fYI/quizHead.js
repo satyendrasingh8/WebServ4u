@@ -6,7 +6,7 @@ import {
   faGithub
 
 } from "@fortawesome/free-brands-svg-icons";
-import MetaDecorator from '../../utils/metaDecorator';
+
 
 
 const QuizHead = ({curDate}) => {
@@ -15,7 +15,7 @@ const QuizHead = ({curDate}) => {
     return(
   <div>
     
-    <MetaDecorator title='flipkart FYI For Your Information quiz answers' description='flipkart FYI For Your Information quiz answers' />
+   
    
    <Card.Header as="h4">Welcome to <a href="/">
        WebServ4u</a>, If you are looking for
@@ -32,15 +32,23 @@ const QuizHead = ({curDate}) => {
        first instance</span> and win exciting awards,prizes,gifts,free coupons and many more 
        by answering correctly. Get the latest Flipkart Quiz answers: </b>
        <Card.Text as="h6">&nbsp;<br></br>
-       <b> <a href="https://webserv4u.com/flipkart-fyi-for-your-information-quiz-answers">
-       flipkart FYI For Your Information quiz answers </a> |
-      
-        <a href="https://webserv4u.com/flipkart-fyi-for-your-information-quiz-answers">
-        flipkart today FYI answers </a>  |  <a href="https://webserv4u.com/flipkart-fyi-for-your-information-quiz-answers">
-        flipkart FYI </a> | 
-      
-        <a href="https://webserv4u.com/flipkart-fyi-for-your-information-quiz-answers">
-        flipkart FYI today </a>
+       <b>  <a href='/flipkart-trivia-today-answers'>  Flipkart Trivia Today Answers</a> |
+ 
+ 
+ <a href='/flipkart-fake-or-not-today-answer'> Flipkart Fake or Not today answers</a> |
+ 
+ 
+  <a href="/kya-bolti-public-flipkart-answers">  Kya Bolti Public Flipkart Answers</a> |
+ 
+ 
+  <a href="/flipkart-play-daam-sahi-hai"> Flipkart Play Daam Sahi Hai</a> |
+ 
+ 
+  <a href="/flipkart-fyi-for-your-information-quiz-answers">flipkart FYI For Your Information quiz answers</a>
+  |
+ 
+  <a href='/flipkart-kaun-who-did-it-quiz-answers'>   flipkart kaun who did it quiz answers</a>
+ 
          </b> <br></br><br></br>
         Join us: &nbsp;&nbsp; </Card.Text><br></br>
     <Card.Subtitle>  <a  href="https://t.me/FlipkartDailyQuiz" ><Button>

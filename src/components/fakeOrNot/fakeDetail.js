@@ -33,26 +33,20 @@ Date: {curDate}
 
 
  <p>&nbsp;<br></br>
- <MetaDecorator title={`flipkart fake not fake today answer  ${curDate}`} description='flipkart fake not fake today answer
-       Live Now. If You Are Looking For Fast And Right Flipkart Quiz Answers Here Are All 5 
-        Correct Answers To The Quiz.' />
+
         <b> <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
         flipkart fake not fake today answer </a> |
-        <MetaDecorator title={`flipkart today fake or not answer ${curDate}`}
-         description='flipkart today fake or not answer'/>
+        
          <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
          flipkart today fake or not answer </a>  |  <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
          flipkart fake or not game </a> | 
-          <MetaDecorator title={`flipkart fake or not fake today answer ${curDate}`}
-         description="flipkart fake or not fake today answer"/>
+    
          <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
          flipkart fake or not fake today answer </a> | 
-         <MetaDecorator title={`flipkart fake or not fake ${curDate}`}
-         description="flipkart fake or not fake"/>
+        
          <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
          flipkart fake or not fake </a>  | 
-         <MetaDecorator title={` flipkart fake or not today answer ${curDate}`}
-         description="flipkart fake or not today answer"/>
+      
        <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
        flipkart fake or not today answer </a>  </b> <br></br><br></br>
          &nbsp;&nbsp; </p>

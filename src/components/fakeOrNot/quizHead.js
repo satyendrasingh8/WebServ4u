@@ -7,7 +7,7 @@ import {
   faGithub
 
 } from "@fortawesome/free-brands-svg-icons";
-import MetaDecorator from '../../utils/metaDecorator';
+
 
 
 const QuizHead = ({curDate}) => {
@@ -16,7 +16,7 @@ const QuizHead = ({curDate}) => {
     return(
   <div>
     
-    <MetaDecorator title='flipkart fake or not fake description' description='flipkart fake or not today answer' />
+   
    
     <Card.Header as="h4">Welcome to <a href="/">
         WebServ4u</a>, If you are looking for
@@ -33,28 +33,24 @@ const QuizHead = ({curDate}) => {
         first instance</span> and win exciting awards,prizes,gifts,free coupons and many more 
         by answering correctly. Get the latest Flipkart Quiz answers: </b>
         <Card.Text as="h6">&nbsp;<br></br>
-        <MetaDecorator title={`flipkart fake or not fake today ${curDate}`} description='flipkart fake not fake today answer
-       Live Now. If You Are Looking For Fast And Right Flipkart Quiz Answers Here Are All 5 
-        Correct Answers To The Quiz.' />
-        <b> <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
-        flipkart fake or not fake today </a> |
-        <MetaDecorator title={`flipkart today fake or not ${curDate}`}
-         description='flipkart today fake or not'/>
-         <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
-         flipkart today fake or not </a>  |  <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
-         flipkart quiz fake or not </a> | 
-          <MetaDecorator title={`flipkart fake or not fake today ${curDate}`}
-         description="flipkart fake or not fake today"/>
-         <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
-         flipkart fake or not fake today </a> | 
-         <MetaDecorator title={`flipkart fake not fake ${curDate}`}
-         description="flipkart fake not fake"/>
-         <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
-         flipkart fake not fake </a>  | 
-         <MetaDecorator title={` flipkart fake or not fake quiz ${curDate}`}
-         description="flipkart fake or not fake quiz"/>
-       <a href="https://webserv4u.com/flipkart-fake-or-not-today-answer">
-       flipkart fake or not fake quiz  </a>  </b> <br></br><br></br>
+      
+        <b>  <a href='/flipkart-trivia-today-answers'>  Flipkart Trivia Today Answers</a> |
+ 
+ 
+ <a href='/flipkart-fake-or-not-today-answer'> Flipkart Fake or Not today answers</a> |
+ 
+ 
+  <a href="/kya-bolti-public-flipkart-answers">  Kya Bolti Public Flipkart Answers</a> |
+ 
+ 
+  <a href="/flipkart-play-daam-sahi-hai"> Flipkart Play Daam Sahi Hai</a> |
+ 
+ 
+  <a href="/flipkart-fyi-for-your-information-quiz-answers">flipkart FYI For Your Information quiz answers</a>
+  |
+ 
+  <a href='/flipkart-kaun-who-did-it-quiz-answers'>   flipkart kaun who did it quiz answers</a>
+  </b> <br></br><br></br>
          Join us: &nbsp;&nbsp; </Card.Text><br></br>
      <Card.Subtitle>  <a  href="https://t.me/FlipkartDailyQuiz" ><Button>
   <FontAwesomeIcon icon={faTelegram} size="2x"  />Join Telegram  </ Button>

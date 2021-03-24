@@ -53,13 +53,7 @@ class FetchFakeOrNot extends Component {
 
     return(
  <div>
-<MetaDecorator title={`flipkart fake or not today answer ${this.props.curDate}`} description='Flipkart Fake or Not today
- Answers... Dear viewers Fake or Not Fake is live now.You will get here fastest correct answers with the trust of webserv4u.com' />
-   <MetaDecorator title={`flipkart fake or not fake ${this.props.curDate}`} description='flipkart fake or not fake
-   is a 2020 Indian web show currently hosted by stand-up comedian and Youtuber Inder Sahani. 
-   The show is a Flipkart Video original and was launched on Flipkart App on 6th July 2020. ... 
-   The first season of Fake or Not was 
-   hosted by Indian actress and comedian Mallika Dua who played as News anchor, Mythika Dutt.' />
+
   {currentPosts && Array.from(currentPosts).map((data)=> {
    return (
        <div> 

@@ -6,9 +6,7 @@ import MetaDecorator from '../../utils/metaDecorator';
 const QuizDescription = ({curDate}) =>{
     return (
         <div>
-                         <MetaDecorator title='flipkart fake or not today answer' 
-    description=' Here you have to get quick live updates for each flipkart fake or not today answer everyday at
-    12:00am.' />
+                         
             <Card.Text><br></br>
       Here you have to get quick live updates for each flipkart <b> Fake or Not </b> Quiz Question everyday &nbsp;
       <span> 

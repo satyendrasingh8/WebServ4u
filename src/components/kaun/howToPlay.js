@@ -6,9 +6,7 @@ const HowToPlay = ({curDate}) => {
   return (
     <div >
     <Container fluid>
-    <MetaDecorator title='how to play flipkart kaun ? Who did it Quiz' 
-    description='Here are all the steps from beginning to end to play Flipkart daily 
-    kaun? who did it Quiz' />
+   
     <Card.Title as="h3">How to play Flipkart<b> Kaun? Who did it</b> Quiz  </Card.Title>
 <Card.Body>
 
